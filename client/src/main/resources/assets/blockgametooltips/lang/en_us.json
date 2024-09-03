@@ -1,0 +1,16 @@
+{
+  "blockgametooltips.config.title": "Blockgame Tooltips",
+  "blockgametooltips.category.main": "Settings",
+
+  "blockgametooltips.category.keyBinds": "Keybinds",
+  "blockgametooltips.key.show": "Show Item Stats",
+  "blockgametooltips.key.show.tooltip": "Shows a more detailed list of item stats when hovering over an item",
+  "blockgametooltips.key.showMinMaxValues": "Show Min/Max Value Ranges",
+  "blockgametooltips.key.showMinMaxValues.tooltip": "Shows the minimum and maximum value ranges when hovering over an item",
+
+  "blockgametooltips.category.toggles": "Tooltip Settings",
+  "blockgametooltips.key.tooltipType": "Tooltip Type",
+  "blockgametooltips.key.tooltipType.tooltip": "Changes the type of tooltip shown when hovering over an item\n- Inline: Shows the tooltip in the item's tooltip\n- Window: Shows the tooltip in a separate window",
+  "blockgametooltips.tooltipType.inline": "Inline",
+  "blockgametooltips.tooltipType.window": "Window"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "DAMAGE",
+    "displayName": " >| Damage",
+    "internalName": "damage",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "HEAL",
+    "displayName": " >| Heal",
+    "internalName": "heal",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "COOLDOWN",
+    "displayName": " >| Cooldown",
+    "internalName": "cooldown",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "DURATION",
+    "displayName": " >| Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "IGNITE",
+    "displayName": " >| Ignite",
+    "internalName": "ignite",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "ANGLE",
+    "displayName": " >| Angle",
+    "internalName": "angle",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "FORCE",
+    "displayName": " >| Force",
+    "internalName": "force",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "RADIUS",
+    "displayName": " >| Radius",
+    "internalName": "radius",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "BLESS_DURATION",
+    "displayName": " >| Bless Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "BLESS_STRENGTH",
+    "displayName": " >| Bless Strength",
+    "internalName": "amplifier",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "CURSE_DURATION",
+    "displayName": " >| Curse Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "CURSE_STRENGTH",
+    "displayName": " >| Curse Strength",
+    "internalName": "amplifier",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SLOW_DURATION",
+    "displayName": " >| Slow Duration",
+    "internalName": "slow-duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "AMPLIFIER",
+    "displayName": " >| Amplifier",
+    "internalName": "amplifier",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "COUNT",
+    "displayName": " >| Count: 3",
+    "internalName": "count",
+    "valueType": "FLAT"
+  }
+]

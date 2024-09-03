@@ -1,0 +1,266 @@
+[
+  {
+    "name": "UNKNOWN",
+    "statNameRaw": "Can\u0027t recognise that Stat.",
+    "statName": "Can\u0027t recognise that Stat.",
+    "valueType": "UNKNOWN"
+  },
+  {
+    "name": "ATTACK_DAMAGE",
+    "statNameRaw": "🗡 Attack Damage",
+    "statName": "Attack Damage",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "ATTACK_SPEED",
+    "statNameRaw": "🗡 Attack Speed",
+    "statName": "Attack Speed",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "CRITICAL_STRIKE_POWER",
+    "statNameRaw": "🗡 Critical Power",
+    "statName": "Critical Power",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "CRITICAL_STRIKE_CHANCE",
+    "statNameRaw": "🗡 Critical Chance",
+    "statName": "Critical Chance",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "BLUNT_POWER",
+    "statNameRaw": "⚒ Blunt Power",
+    "statName": "Blunt Power",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "BLUNT_RATING",
+    "statNameRaw": "⚒ Blunt Rating",
+    "statName": "Blunt Rating",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "BLOCK_POWER",
+    "statNameRaw": "⛨ Block Power",
+    "statName": "Block Power",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "BLOCK_RATING",
+    "statNameRaw": "⛨ Block Rating",
+    "statName": "Block Rating",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "BLOCK_COOLDOWN_REDUCTION",
+    "statNameRaw": "⛨ Block Cooldown Reduction",
+    "statName": "Block Cooldown Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "PVE_DAMAGE",
+    "statNameRaw": "🗡 PvE Damage",
+    "statName": "PvE Damage",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "PVE_DAMAGE_REDUCTION",
+    "statNameRaw": "⛨ PvE Damage Reduction",
+    "statName": "PvE Damage Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "PVP_DAMAGE",
+    "statNameRaw": "🗡 PvP Damage",
+    "statName": "PvP Damage",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "PVP_DAMAGE_REDUCTION",
+    "statNameRaw": "⛨ PvP Damage Reduction",
+    "statName": "PvP Damage Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "MAGIC_DAMAGE",
+    "statNameRaw": "☄ Magic Damage",
+    "statName": "Magic Damage",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "PROJECTILE_DAMAGE",
+    "statNameRaw": "🏹 Projectile Damage",
+    "statName": "Projectile Damage",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "WEAPON_DAMAGE",
+    "statNameRaw": "🗡 Weapon Damage",
+    "statName": "Weapon Damage",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "THAUMATURGY_DAMAGE",
+    "statNameRaw": "☮ Thaumaturgy Power",
+    "statName": "Thaumaturgy Power",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "DAMAGE_REDUCTION",
+    "statNameRaw": "⛨ Damage Reduction",
+    "statName": "Damage Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "FALL_DAMAGE_REDUCTION",
+    "statNameRaw": "⛨ Fall Damage Reduction",
+    "statName": "Fall Damage Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "DEFENSE",
+    "statNameRaw": "⛨ Defense",
+    "statName": "Defense",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_HERBALISM",
+    "statNameRaw": "☘ Herbalism EXP",
+    "statName": "Herbalism EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY",
+    "statNameRaw": "☠ Archaeology EXP",
+    "statName": "Archaeology EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_LOGGING",
+    "statNameRaw": "🪓 Logging EXP",
+    "statName": "Logging EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_FISHING",
+    "statNameRaw": "🎣 Fishing EXP",
+    "statName": "Fishing EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_RUNECARVING",
+    "statNameRaw": "ᚱ Runecarving EXP",
+    "statName": "Runecarving EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_MINING",
+    "statNameRaw": "⛏ Mining EXP",
+    "statName": "Mining EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE_COOKING",
+    "statNameRaw": "🍖 Cooking EXP",
+    "statName": "Cooking EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ADDITIONAL_EXPERIENCE",
+    "statNameRaw": "∞ Class EXP",
+    "statName": "Class EXP",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "CRITICAL_FISHING_CHANCE",
+    "statNameRaw": "🎣 Critical Fishing Chance",
+    "statName": "Critical Fishing Chance",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_HERBALISM",
+    "statNameRaw": "☘ Herbalism Skill",
+    "statName": "Herbalism Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_ARCHAEOLOGY",
+    "statNameRaw": "☠ Archaeology Skill",
+    "statName": "Archaeology Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_LOGGING",
+    "statNameRaw": "🪓 Logging Skill",
+    "statName": "Logging Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_FISHING",
+    "statNameRaw": "🎣 Fishing Skill",
+    "statName": "Fishing Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_RUNECARVING",
+    "statNameRaw": "ᚱ Runecarving Skill",
+    "statName": "Runecarving Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_COOKING",
+    "statNameRaw": "🍖 Cooking Skill",
+    "statName": "Cooking Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SKILL_MINING",
+    "statNameRaw": "⛏ Mining Skill",
+    "statName": "Mining Skill",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "COOLDOWN_REDUCTION",
+    "statNameRaw": "⏳ Cooldown Reduction",
+    "statName": "Cooldown Reduction",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "MOVEMENT_SPEED",
+    "statNameRaw": "⌚ Movement Speed",
+    "statName": "Movement Speed",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "ARROW_VELOCITY",
+    "statNameRaw": "🏹 Arrow Velocity",
+    "statName": "Arrow Velocity",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "MAX_HEALTH",
+    "statNameRaw": "❤ Health",
+    "statName": "Health",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "HEALTH_REGENERATION",
+    "statNameRaw": "❤ Health Regeneration",
+    "statName": "Health Regeneration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "HEALING_RECEIVED",
+    "statNameRaw": "❤ Healing Received",
+    "statName": "Healing Received",
+    "valueType": "PERCENTAGE"
+  },
+  {
+    "name": "KNOCKBACK_RESISTANCE",
+    "statNameRaw": "⛨ Knockback Resistance",
+    "statName": "Knockback Resistance",
+    "valueType": "PERCENTAGE"
+  }
+]

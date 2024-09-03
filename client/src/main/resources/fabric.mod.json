@@ -1,0 +1,57 @@
+{
+	"schemaVersion": 1,
+	"id": "blockgametooltips",
+	"version": "${version}",
+	"name": "Blockgame Tooltips",
+	"description": "(Unofficial) Adds advanced client-side tooltips for items in Blockgame",
+	"authors": [
+		"BluePanda22 - Author & Programmer",
+		"PR0FESSIONALnoob - Early Testing, Stat Values",
+		"Sky43990 - Early Testing, Stat Values",
+		"Neglex - Early Testing",
+		"Stardack - Early Testing",
+		"Tik_767 - Early Testing"
+	],
+	"contact": {
+		"repo": "https://github.com/BluePanda22/blockgame-tooltips",
+		"sources": "https://github.com/BluePanda22/blockgame-tooltips",
+		"issues": "https://github.com/BluePanda22/blockgame-tooltips/issues",
+		"homepage": "https://modrinth.com/mod/blockgame-tooltips"
+	},
+	"license": "MIT",
+	"icon": "assets/blockgametooltips/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.blockgame.tooltips.BlockgameTooltipsClient"
+		],
+		"modmenu": [
+			"com.blockgame.tooltips.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "blockgametooltips.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": "*",
+		"fabric-language-kotlin": ">=1.10.10+kotlin.1.9.10"
+	},
+	"custom": {
+		"modmenu": {
+			"update_checker": false,
+			"links": {
+				"modmenu.discord": "https://discord.gg/piratesoftware"
+			}
+		}
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

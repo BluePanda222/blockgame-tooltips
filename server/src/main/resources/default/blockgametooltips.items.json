@@ -1,0 +1,8402 @@
+[
+  {
+    "id": "T4_RANDOM_MACE",
+    "revisionId": 300,
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 18.33668702004775,
+        "max": 18.33668702004775
+      },
+      "BLUNT_POWER": {
+        "min": 2.12345516092166,
+        "max": 2.12345516092166
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.20682542924244293,
+        "max": 0.20682542924244293
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 9.325546232085127,
+        "max": 9.325546232085127
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_RATING": {
+        "min": 30.37110141466685,
+        "max": 30.37110141466685
+      }
+    },
+    "abilities": [
+      {
+        "id": "FIERY_SHOUT",
+        "displayName": "Fiery Shout",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 20.77837291755912,
+            "max": 20.77837291755912
+          },
+          "COOLDOWN": {
+            "min": 57.14230537713197,
+            "max": 57.14230537713197
+          },
+          "RADIUS": {
+            "min": 5.061570848755581,
+            "max": 5.061570848755581
+          }
+        }
+      }
+    ],
+    "mods": [
+      {
+        "displayName": "[\"\u00266Scalding\"]",
+        "stats": {
+          "ATTACK_DAMAGE": {
+            "min": 3.0,
+            "max": 3.0
+          }
+        }
+      },
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "DAMAGE_REDUCTION": {
+            "min": -5.5,
+            "max": -5.5
+          },
+          "PVE_DAMAGE_REDUCTION": {
+            "min": 3.4710188255511585,
+            "max": 3.4710188255511585
+          },
+          "WEAPON_DAMAGE": {
+            "min": 9.497825507687514,
+            "max": 9.497825507687514
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "T4_RANDOM_MACE",
+    "revisionId": 1501,
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.2,
+        "max": 0.22
+      },
+      "ATTACK_DAMAGE": {
+        "min": 15.3,
+        "max": 18.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [
+      {
+        "id": "ROCK_AND_AWE",
+        "displayName": "Rock And Awe",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 18.0,
+            "max": 22.0
+          },
+          "SLOW_DURATION": {
+            "min": 4.0,
+            "max": 6.0
+          },
+          "COOLDOWN": {
+            "min": 18.0,
+            "max": 22.0
+          },
+          "RADIUS": {
+            "min": 4.0,
+            "max": 6.0
+          }
+        }
+      }
+    ],
+    "mods": [
+      {
+        "displayName": "\u0026dCorrupted",
+        "stats": {
+          "DAMAGE_REDUCTION": {
+            "min": -2.0,
+            "max": -5.1
+          },
+          "PVE_DAMAGE_REDUCTION": {
+            "min": 3.0,
+            "max": 4.0
+          },
+          "PVP_DAMAGE": {
+            "min": 5.0,
+            "max": 7.0
+          }
+        }
+      },
+      {
+        "displayName": "\u00266Scalding",
+        "stats": {
+          "ATTACK_DAMAGE": {
+            "min": 2.0,
+            "max": 4.0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "RUNECARVING_DEFENSE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 0.55,
+        "max": 0.67
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 0.45,
+        "max": 0.55
+      },
+      "PVE_DAMAGE_REDUCTION": {
+        "min": 0.5,
+        "max": 0.61
+      },
+      "BLOCK_POWER": {
+        "min": 0.35,
+        "max": 0.43
+      },
+      "BLOCK_RATING": {
+        "min": 0.35,
+        "max": 0.43
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 0.1,
+        "max": 0.12
+      },
+      "MAX_HEALTH": {
+        "min": 0.7,
+        "max": 0.86
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_DEFENSE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.1,
+        "max": 1.34
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "PVE_DAMAGE_REDUCTION": {
+        "min": 1.0,
+        "max": 1.22
+      },
+      "BLOCK_POWER": {
+        "min": 0.7,
+        "max": 0.86
+      },
+      "BLOCK_RATING": {
+        "min": 0.7,
+        "max": 0.86
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 0.2,
+        "max": 0.24
+      },
+      "MAX_HEALTH": {
+        "min": 1.4,
+        "max": 1.71
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_DEFENSE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.65,
+        "max": 2.02
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 1.35,
+        "max": 1.65
+      },
+      "PVE_DAMAGE_REDUCTION": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "BLOCK_POWER": {
+        "min": 1.05,
+        "max": 1.28
+      },
+      "BLOCK_RATING": {
+        "min": 1.05,
+        "max": 1.28
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 0.3,
+        "max": 0.37
+      },
+      "MAX_HEALTH": {
+        "min": 2.1,
+        "max": 2.57
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_DEFENSE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.2,
+        "max": 2.69
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "PVE_DAMAGE_REDUCTION": {
+        "min": 2.0,
+        "max": 2.44
+      },
+      "BLOCK_POWER": {
+        "min": 1.4,
+        "max": 1.71
+      },
+      "BLOCK_RATING": {
+        "min": 1.4,
+        "max": 1.71
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 0.4,
+        "max": 0.49
+      },
+      "MAX_HEALTH": {
+        "min": 2.8,
+        "max": 3.42
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_DEFENSE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.75,
+        "max": 3.36
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 2.25,
+        "max": 2.75
+      },
+      "PVE_DAMAGE_REDUCTION": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "BLOCK_POWER": {
+        "min": 1.75,
+        "max": 2.14
+      },
+      "BLOCK_RATING": {
+        "min": 1.75,
+        "max": 2.14
+      },
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 0.5,
+        "max": 0.61
+      },
+      "MAX_HEALTH": {
+        "min": 3.5,
+        "max": 4.28
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_OFFENSE_1",
+    "stats": {
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 0.25,
+        "max": 0.31
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 0.98,
+        "max": 1.19
+      },
+      "BLUNT_POWER": {
+        "min": 0.015,
+        "max": 0.018
+      },
+      "BLUNT_RATING": {
+        "min": 0.3,
+        "max": 0.37
+      },
+      "PVE_DAMAGE": {
+        "min": 0.5,
+        "max": 0.61
+      },
+      "WEAPON_DAMAGE": {
+        "min": 1.25,
+        "max": 1.53
+      },
+      "MAGIC_DAMAGE": {
+        "min": 1.25,
+        "max": 1.53
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 1.25,
+        "max": 1.53
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 1.25,
+        "max": 1.53
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.18,
+        "max": 0.21
+      },
+      "MOVEMENT_SPEED": {
+        "min": 0.1,
+        "max": 0.12
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_OFFENSE_2",
+    "stats": {
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 0.5,
+        "max": 0.61
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 1.95,
+        "max": 2.38
+      },
+      "BLUNT_POWER": {
+        "min": 0.03,
+        "max": 0.037
+      },
+      "BLUNT_RATING": {
+        "min": 0.6,
+        "max": 0.73
+      },
+      "PVE_DAMAGE": {
+        "min": 1.0,
+        "max": 1.22
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "MAGIC_DAMAGE": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.35,
+        "max": 0.43
+      },
+      "MOVEMENT_SPEED": {
+        "min": 0.2,
+        "max": 0.24
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_OFFENSE_3",
+    "stats": {
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 0.75,
+        "max": 0.92
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 2.93,
+        "max": 3.58
+      },
+      "BLUNT_POWER": {
+        "min": 0.045,
+        "max": 0.055
+      },
+      "BLUNT_RATING": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "PVE_DAMAGE": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "WEAPON_DAMAGE": {
+        "min": 3.75,
+        "max": 4.58
+      },
+      "MAGIC_DAMAGE": {
+        "min": 3.75,
+        "max": 4.58
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 3.75,
+        "max": 4.58
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 3.75,
+        "max": 4.58
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.53,
+        "max": 0.64
+      },
+      "MOVEMENT_SPEED": {
+        "min": 0.3,
+        "max": 0.37
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_OFFENSE_4",
+    "stats": {
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 1.0,
+        "max": 1.22
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 3.9,
+        "max": 4.77
+      },
+      "BLUNT_POWER": {
+        "min": 0.06,
+        "max": 0.073
+      },
+      "BLUNT_RATING": {
+        "min": 1.2,
+        "max": 1.47
+      },
+      "PVE_DAMAGE": {
+        "min": 2.0,
+        "max": 2.44
+      },
+      "WEAPON_DAMAGE": {
+        "min": 5.0,
+        "max": 6.11
+      },
+      "MAGIC_DAMAGE": {
+        "min": 5.0,
+        "max": 6.11
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 5.0,
+        "max": 6.11
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.0,
+        "max": 6.11
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.7,
+        "max": 0.86
+      },
+      "MOVEMENT_SPEED": {
+        "min": 0.4,
+        "max": 0.49
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_OFFENSE_5",
+    "stats": {
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 1.25,
+        "max": 1.53
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 4.88,
+        "max": 5.96
+      },
+      "BLUNT_POWER": {
+        "min": 0.075,
+        "max": 0.092
+      },
+      "BLUNT_RATING": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "PVE_DAMAGE": {
+        "min": 2.5,
+        "max": 3.06
+      },
+      "WEAPON_DAMAGE": {
+        "min": 6.25,
+        "max": 7.64
+      },
+      "MAGIC_DAMAGE": {
+        "min": 6.25,
+        "max": 7.64
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 6.25,
+        "max": 7.64
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 6.25,
+        "max": 7.64
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.88,
+        "max": 1.07
+      },
+      "MOVEMENT_SPEED": {
+        "min": 0.5,
+        "max": 0.616
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_ADVANCEMENT_1",
+    "stats": {
+      "ADDITIONAL_EXPERIENCE": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 1.5,
+        "max": 1.83
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 1.5,
+        "max": 1.83
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_ADVANCEMENT_2",
+    "stats": {
+      "ADDITIONAL_EXPERIENCE": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 3.0,
+        "max": 3.67
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 3.0,
+        "max": 3.67
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_ADVANCEMENT_3",
+    "stats": {
+      "ADDITIONAL_EXPERIENCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_ADVANCEMENT_4",
+    "stats": {
+      "ADDITIONAL_EXPERIENCE": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 6.0,
+        "max": 7.33
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 6.0,
+        "max": 7.33
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVING_ADVANCEMENT_5",
+    "stats": {
+      "ADDITIONAL_EXPERIENCE": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 7.5,
+        "max": 9.17
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 7.5,
+        "max": 9.17
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "MAX_HEALTH": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 12.6,
+        "max": 15.4
+      },
+      "MAX_HEALTH": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "MAX_HEALTH": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "MAX_HEALTH": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_SHIELD",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "BLOCK_POWER": {
+        "min": 11.25,
+        "max": 13.8
+      },
+      "BLOCK_RATING": {
+        "min": 11.25,
+        "max": 13.8
+      },
+      "MAX_HEALTH": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_MACE",
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.0,
+        "max": 0.1
+      },
+      "ATTACK_DAMAGE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "MAX_HEALTH": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "HEALING_RECEIVED": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 25.2,
+        "max": 30.8
+      },
+      "MAX_HEALTH": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "HEALING_RECEIVED": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "MAX_HEALTH": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "HEALING_RECEIVED": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "MAX_HEALTH": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "HEALING_RECEIVED": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_SHIELD",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "BLOCK_POWER": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "BLOCK_RATING": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "MAX_HEALTH": {
+        "min": 9.0,
+        "max": 11.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "COPPER_MACE",
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.1,
+        "max": 0.1
+      },
+      "ATTACK_DAMAGE": {
+        "min": 9.9,
+        "max": 12.1
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STEEL_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "MAX_HEALTH": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "HEALING_RECEIVED": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STEEL_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 37.8,
+        "max": 46.2
+      },
+      "MAX_HEALTH": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "HEALING_RECEIVED": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STEEL_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "MAX_HEALTH": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "HEALING_RECEIVED": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STEEL_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "MAX_HEALTH": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "HEALING_RECEIVED": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BONE_SHIELD",
+    "stats": {
+      "DEFENSE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "BLOCK_POWER": {
+        "min": 15.8,
+        "max": 19.2
+      },
+      "BLOCK_RATING": {
+        "min": 15.8,
+        "max": 19.2
+      },
+      "MAX_HEALTH": {
+        "min": 13.5,
+        "max": 16.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "UNSETTLING_MACE",
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 6.8,
+        "max": 8.2
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.1,
+        "max": 0.2
+      },
+      "ATTACK_DAMAGE": {
+        "min": 12.6,
+        "max": 15.4
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_BRUTE_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "MAX_HEALTH": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "HEALING_RECEIVED": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_BRUTE_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 50.4,
+        "max": 61.6
+      },
+      "MAX_HEALTH": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "HEALING_RECEIVED": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_BRUTE_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "MAX_HEALTH": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "HEALING_RECEIVED": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_BRUTE_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "MAX_HEALTH": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "HEALING_RECEIVED": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_SHIELD",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "BLOCK_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "BLOCK_RATING": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "MAX_HEALTH": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_MACE",
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.2,
+        "max": 0.22
+      },
+      "ATTACK_DAMAGE": {
+        "min": 15.3,
+        "max": 18.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "MAX_HEALTH": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALING_RECEIVED": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 63.0,
+        "max": 77.0
+      },
+      "MAX_HEALTH": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALING_RECEIVED": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "MAX_HEALTH": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALING_RECEIVED": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "MAX_HEALTH": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALING_RECEIVED": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_SHIELD",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "BLOCK_POWER": {
+        "min": 20.2,
+        "max": 24.8
+      },
+      "BLOCK_RATING": {
+        "min": 20.2,
+        "max": 24.8
+      },
+      "MAX_HEALTH": {
+        "min": 22.5,
+        "max": 27.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAAHES_MACE",
+    "stats": {
+      "BLOCK_COOLDOWN_REDUCTION": {
+        "min": 11.2,
+        "max": 13.8
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.2,
+        "max": 0.3
+      },
+      "ATTACK_DAMAGE": {
+        "min": 18.9,
+        "max": 23.1
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "BLUNT_POWER": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "BLUNT_RATING": {
+        "min": 27.0,
+        "max": 33.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "GUARDIAN_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "MAX_HEALTH": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "GUARDIAN_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 75.6,
+        "max": 92.4
+      },
+      "MAX_HEALTH": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "GUARDIAN_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 64.8,
+        "max": 79.2
+      },
+      "MAX_HEALTH": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "GUARDIAN_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "MAX_HEALTH": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "HEALING_RECEIVED": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CACTUS_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "WEAPON_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CACTUS_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "WEAPON_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CACTUS_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CACTUS_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "WEAPON_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOTEM_CACTUS",
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "MOVEMENT_SPEED": {
+        "min": 3.3,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CACTUS_SWORD",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STONE_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "WEAPON_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STONE_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "WEAPON_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STONE_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STONE_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "WEAPON_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOTEM_STONE",
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "MOVEMENT_SPEED": {
+        "min": 6.6,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STONE_SWORD",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MYTHRIL_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MYTHRIL_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MYTHRIL_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MYTHRIL_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOTEM_UNSETTLING",
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "MOVEMENT_SPEED": {
+        "min": 9.9,
+        "max": 9.9
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "UNSETTLING_BLADE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_SLAYER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "WEAPON_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_SLAYER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "WEAPON_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_SLAYER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_SLAYER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "WEAPON_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOTEM_BLOODSNOUT",
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "MOVEMENT_SPEED": {
+        "min": 13.2,
+        "max": 13.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_BLADE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MONTU_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MONTU_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MONTU_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 45.0,
+        "max": 55.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MONTU_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOTEM_MONTU",
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "KNOCKBACK_RESISTANCE": {
+        "min": 22.5,
+        "max": 27.5
+      },
+      "MOVEMENT_SPEED": {
+        "min": 13.5,
+        "max": 16.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MONTU_BLADE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 18.9,
+        "max": 23.1
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WARRIORS_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "WEAPON_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WARRIORS_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 64.8,
+        "max": 79.2
+      },
+      "WEAPON_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WARRIORS_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "WEAPON_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WARRIORS_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "WEAPON_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SILK_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SILK_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "MAGIC_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SILK_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "MAGIC_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SILK_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FOCUS_WIND",
+    "stats": {
+      "MAGIC_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SPARKING_SILK_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "MAGIC_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SPARKING_SILK_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "MAGIC_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SPARKING_SILK_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SPARKING_SILK_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "MAGIC_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FOCUS_SLIME",
+    "stats": {
+      "MAGIC_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 9.0,
+        "max": 11.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ACOLYTE_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "MAGIC_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ACOLYTE_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "MAGIC_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ACOLYTE_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "MAGIC_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ACOLYTE_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "MAGIC_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FOCUS_UNSETTLING",
+    "stats": {
+      "MAGIC_DAMAGE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 13.5,
+        "max": 16.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_MAGI_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "MAGIC_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_MAGI_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_MAGI_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "MAGIC_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_MAGI_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "MAGIC_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FOCUS_BLOODSNOUT",
+    "stats": {
+      "MAGIC_DAMAGE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "DJEDI_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "MAGIC_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "DJEDI_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "MAGIC_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "DJEDI_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "MAGIC_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "DJEDI_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "MAGIC_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FOCUS_DJEDI",
+    "stats": {
+      "MAGIC_DAMAGE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "FALL_DAMAGE_REDUCTION": {
+        "min": 22.5,
+        "max": 27.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WIZARDS_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WIZARDS_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "MAGIC_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WIZARDS_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "MAGIC_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WIZARDS_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "MAGIC_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 18.9,
+            "max": 23.1
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 21.6,
+            "max": 26.4
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 24.3,
+            "max": 29.7
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FROSTBOLT_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FROSTBOLT",
+        "displayName": "Frostbolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 27.0,
+            "max": 33.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "IGNITE": {
+            "min": 4.0,
+            "max": 4.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "IGNITE": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "IGNITE": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 18.9,
+            "max": 23.1
+          },
+          "IGNITE": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 21.6,
+            "max": 26.4
+          },
+          "IGNITE": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FIREBOLT_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FIREBOLT",
+        "displayName": "Firebolt",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 24.3,
+            "max": 29.7
+          },
+          "IGNITE": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 2.7,
+            "max": 3.3
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 5.4,
+            "max": 6.6
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 8.1,
+            "max": 9.9
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_PRESSURE_WAVE_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "PRESSURE_WAVE",
+        "displayName": "Pressure Wave",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "ANGLE": {
+            "min": 59.4,
+            "max": 61.8
+          },
+          "FORCE": {
+            "min": 5.0,
+            "max": 10.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 5.4,
+            "max": 6.6
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 8.1,
+            "max": 9.9
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_COLLAPSING_EARTH_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "COLLAPSING_EARTH",
+        "displayName": "Collapsing Earth",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 18.9,
+            "max": 23.1
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "SHOTCALLER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHOTCALLER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHOTCALLER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHOTCALLER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STRONG_BOW",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.1,
+        "max": 1.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RANGER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RANGER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RANGER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RANGER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKELETAL_BOW",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 6.3,
+        "max": 7.7
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 25.2,
+        "max": 30.8
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.1,
+        "max": 1.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHARPSHOOTER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHARPSHOOTER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHARPSHOOTER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHARPSHOOTER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "UNSETTLING_BOW",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.1,
+        "max": 1.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_RANGER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_RANGER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_RANGER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_RANGER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "PIGGLY_WIGGLY_BOW",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 22.5,
+        "max": 27.5
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.1,
+        "max": 1.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SATET_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SATET_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 45.0,
+        "max": 55.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SATET_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SATET_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SATET_BOW",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.1,
+        "max": 1.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MARKSMAN_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MARKSMAN_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MARKSMAN_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MARKSMAN_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_FLINT",
+    "stats": {
+      "PROJECTILE_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_SERRATED",
+    "stats": {
+      "PROJECTILE_DAMAGE": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_POISON",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_VENOM",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_ROTTEN",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_HORRIFYING",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_TACKY",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_STICKY",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_BURNING",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "QUIVER_SATET",
+    "stats": {},
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOOL_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.5,
+        "max": 0.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOOL_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.5,
+        "max": 0.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOOL_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.5,
+        "max": 0.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOOL_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.5,
+        "max": 0.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "IMPLEMENT_CAUTERIZING",
+    "stats": {
+      "THAUMATURGY_DAMAGE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.01,
+        "max": 0.01
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLESSED_WOOL_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLESSED_WOOL_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 14.4,
+        "max": 17.6
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLESSED_WOOL_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLESSED_WOOL_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 0.9,
+        "max": 1.1
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "IMPLEMENT_GUIDING",
+    "stats": {
+      "THAUMATURGY_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.02,
+        "max": 0.02
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SANCTIFIED_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.4,
+        "max": 1.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SANCTIFIED_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.4,
+        "max": 1.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SANCTIFIED_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 16.2,
+        "max": 19.8
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.4,
+        "max": 1.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SANCTIFIED_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.4,
+        "max": 1.6
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "IMPLEMENT_BRAND",
+    "stats": {
+      "THAUMATURGY_DAMAGE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.03,
+        "max": 0.03
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.7,
+        "max": 3.3
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_HEALER_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_HEALER_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.8,
+        "max": 35.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_HEALER_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 21.6,
+        "max": 26.4
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BLOODSNOUT_HEALER_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 7.2,
+        "max": 8.8
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 1.8,
+        "max": 2.2
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "IMPLEMENT_CALLER",
+    "stats": {
+      "THAUMATURGY_DAMAGE": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.04,
+        "max": 0.04
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 3.6,
+        "max": 4.4
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "HEKA_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "HEKA_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "HEKA_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 27.0,
+        "max": 33.0
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "HEKA_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 9.0,
+        "max": 11.0
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "IMPLEMENT_HEKA",
+    "stats": {
+      "THAUMATURGY_DAMAGE": {
+        "min": 22.5,
+        "max": 27.5
+      },
+      "HEALTH_REGENERATION": {
+        "min": 0.05,
+        "max": 0.05
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 4.5,
+        "max": 5.5
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "THAUMATURGE_HELMET",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "THAUMATURGE_CHESTPLATE",
+    "stats": {
+      "DEFENSE": {
+        "min": 43.2,
+        "max": 52.8
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "THAUMATURGE_LEGGINGS",
+    "stats": {
+      "DEFENSE": {
+        "min": 32.4,
+        "max": 39.6
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "THAUMATURGE_BOOTS",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "THAUMATURGY_DAMAGE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "COOLDOWN_REDUCTION": {
+        "min": 2.2,
+        "max": 2.8
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 7.2,
+            "max": 8.8
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 0.45,
+            "max": 0.55
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 8.1,
+            "max": 9.9
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 0.9,
+            "max": 1.1
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 9.0,
+            "max": 11.0
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 1.35,
+            "max": 1.65
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 9.9,
+            "max": 12.1
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 1.8,
+            "max": 2.2
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 2.25,
+            "max": 2.75
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_LIFE_DRAIN_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "LIFE_DRAIN",
+        "displayName": "Life Drain",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DAMAGE": {
+            "min": 11.7,
+            "max": 14.3
+          },
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 2.7,
+            "max": 3.3
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 0.9,
+            "max": 1.1
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 1.8,
+            "max": 2.2
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 2.7,
+            "max": 3.3
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 3.6,
+            "max": 4.4
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 4.5,
+            "max": 5.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_FLASH_HEAL_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "FLASH_HEAL",
+        "displayName": "Flash Heal",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "COOLDOWN": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "HEAL": {
+            "min": 5.4,
+            "max": 6.6
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 9.0,
+            "max": 11.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 13.5,
+            "max": 16.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 18.0,
+            "max": 22.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 22.5,
+            "max": 27.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 27.0,
+            "max": 33.0
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_REGENERATION_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "REGENERATION",
+        "displayName": "Regeneration",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "DURATION": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 31.5,
+            "max": 38.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 2.7,
+            "max": 3.3
+          },
+          "BLESS_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 5.4,
+            "max": 6.6
+          },
+          "BLESS_STRENGTH": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 8.1,
+            "max": 9.9
+          },
+          "BLESS_STRENGTH": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "BLESS_STRENGTH": {
+            "min": 4.0,
+            "max": 4.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "BLESS_STRENGTH": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_RING_OF_MERCY_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "RING_OF_MERCY",
+        "displayName": "Ring of Mercy",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "BLESS_DURATION": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "COOLDOWN": {
+            "min": 20.0,
+            "max": 20.0
+          },
+          "HEAL": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "BLESS_STRENGTH": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_1",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 2.7,
+            "max": 3.3
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_2",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 5.4,
+            "max": 6.6
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_3",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 10.8,
+            "max": 13.2
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_4",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 2.7,
+            "max": 3.3
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_5",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 13.5,
+            "max": 16.5
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "TOME_CORRUPTION_6",
+    "stats": {},
+    "abilities": [
+      {
+        "id": "CORRUPTION",
+        "displayName": "Corruption",
+        "castMode": "RIGHT_CLICK",
+        "abilityModifiers": {
+          "CURSE_DURATION": {
+            "min": 5.0,
+            "max": 5.0
+          },
+          "DAMAGE": {
+            "min": 16.2,
+            "max": 19.8
+          },
+          "COOLDOWN": {
+            "min": 10.0,
+            "max": 10.0
+          },
+          "CURSE_STRENGTH": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "RADIUS": {
+            "min": 2.5,
+            "max": 2.5
+          }
+        }
+      }
+    ],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_HOE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_HERBALISM_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BRASS_HOE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.9,
+        "max": 3.6
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_HERBALISM_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKYSTEEL_HOE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 4.0,
+        "max": 5.0
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_HERBALISM_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHIMMERGLASS_HOE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 5.2,
+        "max": 6.4
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 72.0,
+        "max": 88.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_HERBALISM_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 40.0,
+        "max": 40.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BOTANIST_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAGISTEEL_HOE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 6.3,
+        "max": 7.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 90.0,
+        "max": 110.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_HERBALISM_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ADDITIONAL_EXPERIENCE_HERBALISM": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 108.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_SHOVEL",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_ARCHAEOLOGY_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BRASS_SHOVEL",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.9,
+        "max": 3.6
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_ARCHAEOLOGY_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKYSTEEL_SHOVEL",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 4.0,
+        "max": 5.0
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_ARCHAEOLOGY_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHIMMERGLASS_SHOVEL",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 5.2,
+        "max": 6.4
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 72.0,
+        "max": 88.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_ARCHAEOLOGY_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 40.0,
+        "max": 40.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "ARCHAEOLOGIST_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAGISTEEL_SHOVEL",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 6.3,
+        "max": 7.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 90.0,
+        "max": 110.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_ARCHAEOLOGY_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ADDITIONAL_EXPERIENCE_ARCHAEOLOGY": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 108.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_AXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_LOGGING_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BRASS_AXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.9,
+        "max": 3.6
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_LOGGING_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKYSTEEL_AXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 4.0,
+        "max": 5.0
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_LOGGING_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHIMMERGLASS_AXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 5.2,
+        "max": 6.4
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 72.0,
+        "max": 88.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_LOGGING_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 40.0,
+        "max": 40.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "LUMBERJACK_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAGISTEEL_AXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 6.3,
+        "max": 7.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 90.0,
+        "max": 110.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_LOGGING_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ADDITIONAL_EXPERIENCE_LOGGING": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 108.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "STRONG_FISHINGPOLE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "CRITICAL_FISHING_CHANCE": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BRASS_FISHINGPOLE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "CRITICAL_FISHING_CHANCE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKYSTEEL_FISHINGPOLE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "CRITICAL_FISHING_CHANCE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHIMMERGLASS_FISHINGPOLE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "CRITICAL_FISHING_CHANCE": {
+        "min": 3.6,
+        "max": 4.4
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 72.0,
+        "max": 88.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 40.0,
+        "max": 40.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "FISHERMAN_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAGISTEEL_FISHINGPOLE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.2,
+        "max": 2.8
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "CRITICAL_FISHING_CHANCE": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 90.0,
+        "max": 110.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ADDITIONAL_EXPERIENCE_FISHING": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 108.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "WOODEN_PICKAXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 1.8,
+        "max": 2.2
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 18.0,
+        "max": 22.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_MINING_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 2.7,
+        "max": 3.3
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "BRASS_PICKAXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 2.9,
+        "max": 3.6
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 36.0,
+        "max": 44.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.4,
+        "max": 6.6
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SKYSTEEL_PICKAXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 4.0,
+        "max": 5.0
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 54.0,
+        "max": 66.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 8.1,
+        "max": 9.9
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "SHIMMERGLASS_PICKAXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 5.2,
+        "max": 6.4
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 72.0,
+        "max": 88.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 10.8,
+        "max": 13.2
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 40.0,
+        "max": 40.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MINER_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "MAGISTEEL_PICKAXE",
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 6.3,
+        "max": 7.7
+      },
+      "ATTACK_SPEED": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 2.5,
+        "max": 2.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 90.0,
+        "max": 110.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 10.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "AUGMENT_FISHING_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 13.5,
+        "max": 16.5
+      },
+      "ADDITIONAL_EXPERIENCE_MINING": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "SKILL_ARCHAEOLOGY": {
+        "min": 10.0,
+        "max": 108.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "RUNECARVER_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_RUNECARVING": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_HELMET_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_CHESTPLATE_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_LEGGINGS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_BOOTS_1",
+    "stats": {
+      "DEFENSE": {
+        "min": 1.9,
+        "max": 2.1
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 18.0,
+        "max": 22.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_HELMET_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_CHESTPLATE_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 15.2,
+        "max": 16.8
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_LEGGINGS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 11.4,
+        "max": 12.6
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_BOOTS_2",
+    "stats": {
+      "DEFENSE": {
+        "min": 3.8,
+        "max": 4.2
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 36.0,
+        "max": 44.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_HELMET_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_CHESTPLATE_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_LEGGINGS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 17.1,
+        "max": 18.9
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_BOOTS_3",
+    "stats": {
+      "DEFENSE": {
+        "min": 5.7,
+        "max": 6.3
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 54.0,
+        "max": 66.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_HELMET_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_CHESTPLATE_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 30.4,
+        "max": 33.6
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_LEGGINGS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 22.8,
+        "max": 25.2
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 72.0,
+        "max": 88.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_BOOTS_4",
+    "stats": {
+      "DEFENSE": {
+        "min": 7.6,
+        "max": 8.4
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 76.0,
+        "max": 84.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_HELMET_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_CHESTPLATE_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 38.0,
+        "max": 42.0
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_LEGGINGS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 28.5,
+        "max": 31.5
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 90.0,
+        "max": 110.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  },
+  {
+    "id": "CHEF_BOOTS_5",
+    "stats": {
+      "DEFENSE": {
+        "min": 9.5,
+        "max": 10.5
+      },
+      "ADDITIONAL_EXPERIENCE_COOKING": {
+        "min": 95.0,
+        "max": 105.0
+      }
+    },
+    "abilities": [],
+    "mods": []
+  }
+]

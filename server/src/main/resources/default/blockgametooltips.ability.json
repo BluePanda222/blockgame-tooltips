@@ -1,0 +1,80 @@
+[
+  {
+    "name": "DAMAGE",
+    "displayName": " \u003e| Damage",
+    "internalName": "damage",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "HEAL",
+    "displayName": " \u003e| Heal",
+    "internalName": "heal",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "COOLDOWN",
+    "displayName": " \u003e| Cooldown",
+    "internalName": "cooldown",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "DURATION",
+    "displayName": " \u003e| Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "IGNITE",
+    "displayName": " \u003e| Ignite",
+    "internalName": "ignite",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "ANGLE",
+    "displayName": " \u003e| Angle",
+    "internalName": "angle",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "FORCE",
+    "displayName": " \u003e| Force",
+    "internalName": "force",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "RADIUS",
+    "displayName": " \u003e| Radius",
+    "internalName": "radius",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "BLESS_DURATION",
+    "displayName": " \u003e| Bless Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "BLESS_STRENGTH",
+    "displayName": " \u003e| Bless Strength",
+    "internalName": "amplifier",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "CURSE_DURATION",
+    "displayName": " \u003e| Curse Duration",
+    "internalName": "duration",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "CURSE_STRENGTH",
+    "displayName": " \u003e| Curse Strength",
+    "internalName": "amplifier",
+    "valueType": "FLAT"
+  },
+  {
+    "name": "SLOW_DURATION",
+    "displayName": " \u003e| Slow Duration",
+    "internalName": "slow-duration",
+    "valueType": "FLAT"
+  }
+]

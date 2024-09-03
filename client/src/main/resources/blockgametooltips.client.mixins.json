@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.blockgame.tooltips.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "DrawContextInvoker",
+    "DrawContextMixin",
+    "HandledScreenMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
