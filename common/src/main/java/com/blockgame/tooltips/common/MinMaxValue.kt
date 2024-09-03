@@ -7,7 +7,7 @@ data class MinMaxValue(
 	var max: Double
 ) {
 
-	fun getPercentage(currentValue: Double): Double {
+	fun getPercentageWithoutConvert(currentValue: Double): Double {
 		if (this.min == this.max) {
 			return 1.0
 		}

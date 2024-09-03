@@ -1,6 +1,7 @@
 package com.blockgame.tooltips.objects.ids
 
 import com.blockgame.tooltips.BlockgameTooltipsClient
+import com.blockgame.tooltips.common.MinMaxValue
 import com.blockgame.tooltips.common.ValueType
 import com.blockgame.tooltips.common.interfaces.IStatId
 import com.blockgame.tooltips.config.ModConfig
@@ -12,6 +13,7 @@ import net.minecraft.text.Text
 import net.minecraft.util.Formatting
 import java.util.*
 import kotlin.NoSuchElementException
+import kotlin.math.roundToInt
 
 class StatId(
 	override val name: String,
@@ -69,6 +71,25 @@ class StatId(
 			oldValue * 100 // move decimal place 2 places to the right
 		} else {
 			oldValue
+		}
+	}
+
+	fun getPercentage(currentValueNotConverted: Double, minMaxValue: MinMaxValue): Double {
+		if (minMaxValue.min == minMaxValue.max) {
+			return 1.0
+		}
+		val currentValue = convertValue(currentValueNotConverted)
+		val min = convertValue(minMaxValue.min)
+		val max = convertValue(minMaxValue.max)
+
+		val currentValueRounded2Decimals = (currentValue * 100).roundToInt() / 100.0
+		val minRounded2Decimals = (min * 100).roundToInt() / 100.0
+		val maxRounded2Decimals = (max * 100).roundToInt() / 100.0
+
+		return if (minRounded2Decimals < 0.0 && maxRounded2Decimals < 0.0) {
+			1 - ((currentValueRounded2Decimals - minRounded2Decimals) / (maxRounded2Decimals - minRounded2Decimals))
+		} else {
+			(currentValueRounded2Decimals - minRounded2Decimals) / (maxRounded2Decimals - minRounded2Decimals)
 		}
 	}
 

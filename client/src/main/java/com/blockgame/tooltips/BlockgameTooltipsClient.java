@@ -35,17 +35,17 @@ public class BlockgameTooltipsClient implements ClientModInitializer {
 		ItemLogger.INSTANCE.getCachedItems(); // init ItemLogger
 
 
-		keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-			"key.blockgametooltips.debug", // The translation key of the keybinding's name
-			InputUtil.Type.KEYSYM, // The type of the keybinding, KEYSYM for keyboard, MOUSE for mouse.
-			GLFW.GLFW_KEY_F4, // The keycode of the key
-			"category.blockgametooltips.debug" // The translation key of the keybinding's category.
-		));
-		ClientTickEvents.END_CLIENT_TICK.register(client -> {
-			while (keyBinding.wasPressed()) {
-				ItemLogger.INSTANCE.logCache();
-			}
-		});
+//		keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+//			"key.blockgametooltips.debug", // The translation key of the keybinding's name
+//			InputUtil.Type.KEYSYM, // The type of the keybinding, KEYSYM for keyboard, MOUSE for mouse.
+//			GLFW.GLFW_KEY_F4, // The keycode of the key
+//			"category.blockgametooltips.debug" // The translation key of the keybinding's category.
+//		));
+//		ClientTickEvents.END_CLIENT_TICK.register(client -> {
+//			while (keyBinding.wasPressed()) {
+//				ItemLogger.INSTANCE.logCache();
+//			}
+//		});
 	}
 
 }

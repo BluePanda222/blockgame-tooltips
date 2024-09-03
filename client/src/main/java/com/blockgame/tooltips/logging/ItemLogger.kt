@@ -168,7 +168,7 @@ object ItemLogger {
 
 			gemstone.stats.forEach gemstoneForEach@{ stat: Stat ->
 				val statKey = stat.id
-				val value = stat.id.convertValue(stat.value)
+				val value = stat.value
 
 				val minMaxValue = if (cachedItem.stats.containsKey(statKey)) {
 					cachedItem.stats[statKey]!!
@@ -353,7 +353,7 @@ object ItemLogger {
 
 			mod.stats.forEach modForEach@{ stat: Stat ->
 				val statKey = stat.id
-				val value = stat.id.convertValue(stat.value)
+				val value = stat.value
 
 				if (cachedItem.mods.any { it.displayNameStripped == id }) {
 					val list = cachedItem.mods.firstOrNull { it.displayNameStripped == id }?.stats

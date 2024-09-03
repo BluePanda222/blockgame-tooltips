@@ -23,8 +23,8 @@ class AbilityModifierId(
 		}
 
 		return when (valueType) {
-			ValueType.FLAT -> String.format(Locale.ROOT, "%.2f", value)
-			ValueType.PERCENTAGE -> String.format(Locale.ROOT, "%.2f", value) + "%"
+			ValueType.FLAT -> String.format(Locale.ROOT, "%.1f", value)
+			ValueType.PERCENTAGE -> String.format(Locale.ROOT, "%.1f", value) + "%"
 			ValueType.UNKNOWN -> value.toString()
 		}
 	}

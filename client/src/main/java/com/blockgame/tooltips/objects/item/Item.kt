@@ -75,7 +75,7 @@ class Item(
 		val minMaxValue = this.stats[statId]
 			?: return null
 
-		val percentage = minMaxValue.getPercentage(statId.convertValue(value))
+		val percentage = statId.getPercentage(value, minMaxValue)
 
 		val color = when {
 			percentage < 0.25 -> Formatting.RED
@@ -96,7 +96,7 @@ class Item(
 		val minMaxValue = this.abilities.firstOrNull { it.id == ability.id }?.abilityModifiers?.get(abilityModifierId)
 			?: return null
 
-		val percentage = minMaxValue.getPercentage(value)
+		val percentage = minMaxValue.getPercentageWithoutConvert(value)
 
 		val color = when {
 			percentage < 0.25 -> Formatting.RED
@@ -117,7 +117,7 @@ class Item(
 		val minMaxValue = this.mods.firstOrNull { it.displayNameStripped == mod.displayNameStripped }?.stats?.get(statId)
 			?: return null
 
-		val percentage = minMaxValue.getPercentage(statId.convertValue(value))
+		val percentage = statId.getPercentage(value, minMaxValue)
 
 		val color = when {
 			percentage < 0.25 -> Formatting.RED
@@ -137,14 +137,16 @@ class Item(
 	fun getRangeText(statId: StatId): Text? {
 		val minMaxValue = this.stats[statId]
 			?: return null
+		val min = statId.convertValue(minMaxValue.min)
+		val max = statId.convertValue(minMaxValue.max)
 
-		return if (minMaxValue.min == minMaxValue.max) {
+		return if (min == max) {
 			Text.literal("[").formatted(Formatting.DARK_GRAY)
-				.append(Text.literal(statId.getFormattedValue(minMaxValue.min, true)).formatted(Formatting.GREEN))
+				.append(Text.literal(statId.getFormattedValue(min, true)).formatted(Formatting.GREEN))
 				.append(Text.literal("]")).formatted(Formatting.DARK_GRAY)
 		} else {
 			Text.literal("[").formatted(Formatting.DARK_GRAY)
-				.append(Text.literal("${statId.getFormattedValue(minMaxValue.min, true)} - ${statId.getFormattedValue(minMaxValue.max, true)}").formatted(Formatting.GREEN))
+				.append(Text.literal("${statId.getFormattedValue(min, true)} - ${statId.getFormattedValue(max, true)}").formatted(Formatting.GREEN))
 				.append(Text.literal("]")).formatted(Formatting.DARK_GRAY)
 		}
 	}
@@ -167,14 +169,16 @@ class Item(
 	fun getRangeText(mod: Mod, statId: StatId): Text? {
 		val minMaxValue = this.mods.firstOrNull { it.displayNameStripped == mod.displayNameStripped }?.stats?.get(statId)
 			?: return null
+		val min = statId.convertValue(minMaxValue.min)
+		val max = statId.convertValue(minMaxValue.max)
 
-		return if (minMaxValue.min == minMaxValue.max) {
+		return if (min == max) {
 			Text.literal("[").formatted(Formatting.DARK_GRAY)
-				.append(Text.literal(statId.getFormattedValue(minMaxValue.min, true)).formatted(Formatting.GREEN))
+				.append(Text.literal(statId.getFormattedValue(min, true)).formatted(Formatting.GREEN))
 				.append(Text.literal("]")).formatted(Formatting.DARK_GRAY)
 		} else {
 			Text.literal("[").formatted(Formatting.DARK_GRAY)
-				.append(Text.literal("${statId.getFormattedValue(minMaxValue.min, true)} - ${statId.getFormattedValue(minMaxValue.max, true)}").formatted(Formatting.GREEN))
+				.append(Text.literal("${statId.getFormattedValue(min, true)} - ${statId.getFormattedValue(max, true)}").formatted(Formatting.GREEN))
 				.append(Text.literal("]")).formatted(Formatting.DARK_GRAY)
 		}
 	}

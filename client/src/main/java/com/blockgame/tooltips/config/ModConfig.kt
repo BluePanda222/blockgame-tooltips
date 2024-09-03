@@ -114,14 +114,14 @@ object ModConfig {
 	data class ConfigVariables(
 		var show: Int = InputUtil.GLFW_KEY_LEFT_CONTROL,
 		var showMinMaxValues: Int = InputUtil.GLFW_KEY_LEFT_SHIFT,
-		var tooltipType: TooltipType = TooltipType.INLINE
+		var tooltipType: TooltipType = TooltipType.WINDOW,
 	)
 
 	enum class TooltipType(
 		val translatable: MutableText
 	) {
+		WINDOW(Text.translatable("$MOD_ID.tooltipType.window")),
 		INLINE(Text.translatable("$MOD_ID.tooltipType.inline")),
-		WINDOW(Text.translatable("$MOD_ID.tooltipType.window"))
 		;
 	}
 

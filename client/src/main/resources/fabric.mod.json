@@ -5,12 +5,12 @@
 	"name": "Blockgame Tooltips",
 	"description": "(Unofficial) Adds advanced client-side tooltips for items in Blockgame",
 	"authors": [
-		"BluePanda22 - Author & Programmer",
-		"PR0FESSIONALnoob - Early Testing, Stat Values",
-		"Sky43990 - Early Testing, Stat Values",
-		"Neglex - Early Testing",
-		"Stardack - Early Testing",
-		"Tik_767 - Early Testing"
+		"BluePanda22 - Creator, Developer",
+		"PR0FESSIONALnoob - Beta Testing, Stat Values",
+		"Sky43990 - Beta Testing, Stat Values",
+		"Neglex - Beta Testing",
+		"Stardack - Beta Testing",
+		"Tik_767 - Beta Testing"
 	],
 	"contact": {
 		"repo": "https://github.com/BluePanda22/blockgame-tooltips",

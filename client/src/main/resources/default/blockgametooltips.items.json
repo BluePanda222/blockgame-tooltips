@@ -32,8 +32,8 @@
         "max": 0.86
       },
       "KNOCKBACK_RESISTANCE": {
-        "min": 0.9,
-        "max": 1.1
+        "min": 0.009,
+        "max": 0.011
       }
     },
     "abilities": [],
@@ -83,8 +83,8 @@
         "max": 1.71
       },
       "KNOCKBACK_RESISTANCE": {
-        "min": 1.8,
-        "max": 2.2
+        "min": 0.018,
+        "max": 0.022
       }
     },
     "abilities": [],
@@ -134,8 +134,8 @@
         "max": 2.57
       },
       "KNOCKBACK_RESISTANCE": {
-        "min": 2.7,
-        "max": 3.3
+        "min": 0.027,
+        "max": 0.033
       }
     },
     "abilities": [],
@@ -185,8 +185,8 @@
         "max": 3.42
       },
       "KNOCKBACK_RESISTANCE": {
-        "min": 3.6,
-        "max": 4.4
+        "min": 0.036,
+        "max": 0.044
       }
     },
     "abilities": [],
@@ -236,14 +236,17 @@
         "max": 4.28
       },
       "KNOCKBACK_RESISTANCE": {
-        "min": 4.5,
-        "max": 5.5
+        "min": 0.045,
+        "max": 0.055
       }
     },
     "abilities": [],
     "mods": [],
     "lore": [
       "« Runecarving Rune »",
+      "",
+      " ⛨ Defense: +3.1",
+      " ⛨ PvE Damage Reduction: +2.97%",
       "",
       "Defensive magics swirl inside...",
       "",
@@ -299,8 +302,8 @@
         "max": 0.21
       },
       "MOVEMENT_SPEED": {
-        "min": 0.1,
-        "max": 0.12
+        "min": 1.0E-4,
+        "max": 1.2E-4
       }
     },
     "abilities": [],
@@ -362,8 +365,8 @@
         "max": 0.43
       },
       "MOVEMENT_SPEED": {
-        "min": 0.2,
-        "max": 0.24
+        "min": 2.0E-4,
+        "max": 2.4E-4
       }
     },
     "abilities": [],
@@ -425,8 +428,8 @@
         "max": 0.64
       },
       "MOVEMENT_SPEED": {
-        "min": 0.3,
-        "max": 0.37
+        "min": 3.0E-4,
+        "max": 3.7E-4
       }
     },
     "abilities": [],
@@ -488,8 +491,8 @@
         "max": 0.86
       },
       "MOVEMENT_SPEED": {
-        "min": 0.4,
-        "max": 0.49
+        "min": 4.0E-4,
+        "max": 4.9E-4
       }
     },
     "abilities": [],
@@ -551,14 +554,21 @@
         "max": 1.07
       },
       "MOVEMENT_SPEED": {
-        "min": 0.5,
-        "max": 0.616
+        "min": 5.0E-4,
+        "max": 6.16E-4
       }
     },
     "abilities": [],
     "mods": [],
     "lore": [
       "« Runecarving Rune »",
+      "",
+      " ⚒ Blunt Power: 0.087",
+      " ⚒ Blunt Rating: 1.71%",
+      " 🗡 PvE Damage: +2.7%",
+      " ☄ Magic Damage: +7.09%",
+      "",
+      " ⌚ Movement Speed: +0.55%",
       "",
       "Offensive magics swirl inside...",
       "",
@@ -838,6 +848,13 @@
     "mods": [],
     "lore": [
       "« Runecarving Rune »",
+      "",
+      " ∞ Class EXP: +8.28%",
+      " 🍖 Herbalism EXP: +8.32%",
+      " 🎣 Fishing EXP: +8.42%",
+      " ⛏ Mining EXP: +8.63%",
+      " 🪓 Logging EXP: +9.16%",
+      " ☠ Archaeology Skill: +1",
       "",
       "It\u0027s full of knowledge...",
       "Slow release knowledge!",
@@ -1518,11 +1535,11 @@
         "stats": {
           "DAMAGE_REDUCTION": {
             "min": -5.3084835285717915,
-            "max": -5.23109650417293
+            "max": -5.1890808563883475
           },
           "ADDITIONAL_EXPERIENCE_LOGGING": {
             "min": 41.35815793763845,
-            "max": 41.35815793763845
+            "max": 42.61824783304405
           },
           "THAUMATURGY_DAMAGE": {
             "min": 7.014493103211706,
@@ -1542,11 +1559,40 @@
           },
           "ADDITIONAL_EXPERIENCE_RUNECARVING": {
             "min": 43.5417752507626,
-            "max": 43.5417752507626
+            "max": 47.56543249899795
           },
           "WEAPON_DAMAGE": {
             "min": 7.748723712941684,
             "max": 7.748723712941684
+          },
+          "PROJECTILE_DAMAGE": {
+            "min": 7.462930265581244,
+            "max": 7.462930265581244
+          }
+        }
+      },
+      {
+        "displayName": "[\"\u00266of the Paragon\"]",
+        "stats": {
+          "PROJECTILE_DAMAGE": {
+            "min": 3.0030851317034895,
+            "max": 3.0030851317034895
+          },
+          "MAGIC_DAMAGE": {
+            "min": 2.835326457471367,
+            "max": 2.835326457471367
+          },
+          "DEFENSE": {
+            "min": 3.0,
+            "max": 3.0
+          },
+          "THAUMATURGY_DAMAGE": {
+            "min": 3.05497477822382,
+            "max": 3.05497477822382
+          },
+          "WEAPON_DAMAGE": {
+            "min": 2.834610491294545,
+            "max": 2.834610491294545
           }
         }
       }
@@ -1554,14 +1600,17 @@
     "lore": [
       "« Guardian Armor »",
       "",
-      " ⛨ Defense: +22.7",
-      " ⛨ Damage Reduction: -5.23%",
+      " ⛨ Defense: +27.5",
+      " ⛨ Damage Reduction: -5.19%",
       "",
-      " 🗡 PvP Damage: +4.81%",
-      " 🗡 Weapon Damage: +7.75%",
-      " ☄ Magic Damage: +7.11%",
+      " 🗡 PvP Damage: +4.66%",
+      " 🗡 Weapon Damage: +2.83%",
+      " ☄ Magic Damage: +2.84%",
+      " ☮ Thaumaturgy Power: +3.05%",
+      " 🏹 Projectile Damage: +10.47%",
       "",
-      " ᚱ Runecarving EXP: +43.54%",
+      " 🪓 Logging EXP: +42.62%",
+      " ᚱ Runecarving EXP: +47.57%",
       "",
       " ☀ Enchant: Curse of Butterfingers",
       "",
@@ -1570,7 +1619,7 @@
       "Drops on death.",
       "",
       "[Guardian] Set Bonus:",
-      "[4] +15% Damage Reduction",
+      "[4] +20% Damage Reduction",
       "[4] +20 Max Health",
       "[4] +0.05 Health Regeneration",
       "",
@@ -1627,11 +1676,11 @@
         "stats": {
           "BLOCK_POWER": {
             "min": 5.232551879110047,
-            "max": 5.332711553599453
+            "max": 5.425733528335146
           },
           "DAMAGE_REDUCTION": {
             "min": -5.445782543366999,
-            "max": -5.058174734517263
+            "max": -4.809037473552722
           },
           "BLOCK_RATING": {
             "min": 4.785592680623064,
@@ -1647,7 +1696,7 @@
           },
           "PVE_DAMAGE_REDUCTION": {
             "min": 2.432080636216795,
-            "max": 2.5245849885198974
+            "max": 2.5900730572216912
           },
           "THAUMATURGY_DAMAGE": {
             "min": 7.915619878742318,
@@ -1655,7 +1704,11 @@
           },
           "MAX_HEALTH": {
             "min": 4.399381217589029,
-            "max": 4.399381217589029
+            "max": 4.489389625628133
+          },
+          "MAGIC_DAMAGE": {
+            "min": 7.664546879199612,
+            "max": 7.664546879199612
           }
         }
       }
@@ -1663,13 +1716,19 @@
     "lore": [
       "« Guardian Armor »",
       "",
-      " ⛨ Defense: +41.3",
-      " ⛨ Damage Reduction: -5.45%",
-      " ⛨ PvE Damage Reduction: +2.43%",
-      " ⛨ Block Power: +5.23%",
-      " ⛨ Block Cooldown Reduction: +2.9%",
+      " ⛨ Defense: +48.4",
+      " ⛨ Damage Reduction: -5.06%",
+      " ⛨ Block Power: +5.24%",
+      " ⛨ Block Rating: +4.79%",
+      " ⛨ Block Cooldown Reduction: +3.29%",
       "",
-      " ☮ Thaumaturgy Power: +7.92%",
+      " 🗡 PvP Damage: +2.72%",
+      " 🗡 Weapon Damage: +2.87%",
+      " ☄ Magic Damage: +2.74%",
+      " ☮ Thaumaturgy Power: +3.14%",
+      " 🏹 Projectile Damage: +2.96%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Touched by Loki.",
       "",
@@ -1708,7 +1767,7 @@
         "stats": {
           "PROJECTILE_DAMAGE": {
             "min": 2.917137490477767,
-            "max": 3.1526835519694787
+            "max": 3.3000000000000003
           },
           "MAGIC_DAMAGE": {
             "min": 2.8847500463017113,
@@ -1720,10 +1779,10 @@
           },
           "THAUMATURGY_DAMAGE": {
             "min": 2.9119571989749167,
-            "max": 3.0813775601772475
+            "max": 3.2694232831550916
           },
           "WEAPON_DAMAGE": {
-            "min": 2.9346000408959902,
+            "min": 2.9082570974514472,
             "max": 3.1572474871836587
           }
         }
@@ -1744,7 +1803,7 @@
             "max": 9.388222274826
           },
           "PVP_DAMAGE_REDUCTION": {
-            "min": 2.9898140349586897,
+            "min": 2.7018832328127083,
             "max": 2.9898140349586897
           },
           "THAUMATURGY_DAMAGE": {
@@ -1768,8 +1827,8 @@
             "max": 7.3673719129975765
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 26.548064339364142,
-            "max": 26.548064339364142
+            "min": 0.2654806433936414,
+            "max": 0.27764333176432854
           },
           "MAGIC_DAMAGE": {
             "min": 7.162858328664957,
@@ -1778,6 +1837,10 @@
           "CRITICAL_STRIKE_POWER": {
             "min": 14.458373281605436,
             "max": 14.458373281605436
+          },
+          "CRITICAL_STRIKE_CHANCE": {
+            "min": 3.8935398103449765,
+            "max": 3.8935398103449765
           }
         }
       }
@@ -1785,16 +1848,20 @@
     "lore": [
       "« Guardian Armor »",
       "",
-      " ⛨ Defense: +36.8",
-      " ⛨ Damage Reduction: -4.93%",
+      " ⛨ Defense: +38.7",
+      " ⛨ Damage Reduction: -5.03%",
+      " ⛨ PvP Damage Reduction: +2.7%",
+      " ⛨ Knockback Resistance: +27.76%",
       "",
-      " 🗡 Critical Power: +14.46%",
+      " 🗡 Critical Chance: +3.89%",
       "",
-      " 🗡 PvE Damage: +2.55%",
-      " 🗡 Weapon Damage: +3.12%",
-      " ☄ Magic Damage: +3.09%",
-      " ☮ Thaumaturgy Power: +10.7%",
-      " 🏹 Projectile Damage: +11.13%",
+      " 🗡 PvE Damage: +2.64%",
+      " 🗡 Weapon Damage: +2.91%",
+      " ☄ Magic Damage: +3.02%",
+      " ☮ Thaumaturgy Power: +3.27%",
+      " 🏹 Projectile Damage: +3.3%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Touched by Loki.",
       "",
@@ -1832,24 +1899,24 @@
         "displayName": "[\"\u00266of the Paragon\"]",
         "stats": {
           "PROJECTILE_DAMAGE": {
-            "min": 3.2613006499663273,
+            "min": 2.9024194927540212,
             "max": 3.2613006499663273
           },
           "MAGIC_DAMAGE": {
             "min": 2.7406941219205225,
-            "max": 2.7406941219205225
+            "max": 2.886672248864009
           },
           "DEFENSE": {
             "min": 3.0,
             "max": 3.0
           },
           "THAUMATURGY_DAMAGE": {
-            "min": 3.054641747347973,
+            "min": 3.028794440982837,
             "max": 3.054641747347973
           },
           "WEAPON_DAMAGE": {
             "min": 3.0469089145537254,
-            "max": 3.0469089145537254
+            "max": 3.2257393968388204
           }
         }
       },
@@ -1858,11 +1925,11 @@
         "stats": {
           "DAMAGE_REDUCTION": {
             "min": -5.147352942840316,
-            "max": -5.082277056311736
+            "max": -4.921265692623763
           },
           "MOVEMENT_SPEED": {
-            "min": 3.1148024231566356,
-            "max": 3.1148024231566356
+            "min": 0.0031148024231566354,
+            "max": 0.0031148024231566354
           },
           "PVP_DAMAGE_REDUCTION": {
             "min": 2.9973625496274243,
@@ -1874,10 +1941,10 @@
           },
           "WEAPON_DAMAGE": {
             "min": 7.0028008576103895,
-            "max": 7.0028008576103895
+            "max": 7.679010717837962
           },
           "PVE_DAMAGE": {
-            "min": 2.4755968452941355,
+            "min": 2.4231458616565034,
             "max": 2.4755968452941355
           },
           "PVE_DAMAGE_REDUCTION": {
@@ -1889,8 +1956,12 @@
             "max": 7.375851899700913
           },
           "MAX_HEALTH": {
-            "min": 4.34641315190549,
+            "min": 4.264171569277079,
             "max": 4.34641315190549
+          },
+          "CRITICAL_STRIKE_POWER": {
+            "min": 15.777605765006639,
+            "max": 15.777605765006639
           }
         }
       }
@@ -1898,13 +1969,17 @@
     "lore": [
       "« Guardian Armor »",
       "",
-      " ⛨ Defense: +22.6",
-      " ⛨ Damage Reduction: -5.15%",
-      " ⛨ PvE Damage Reduction: +2.6%",
+      " ⛨ Defense: +27.1",
+      " ⛨ Damage Reduction: -4.92%",
       " ❤ Health: +4.3",
       "",
-      " 🗡 PvE Damage: +2.48%",
-      " ☄ Magic Damage: +7.38%",
+      " 🗡 Critical Power: +15.78%",
+      "",
+      " 🗡 PvE Damage: +2.42%",
+      " 🗡 Weapon Damage: +10.9%",
+      " ☄ Magic Damage: +2.89%",
+      " ☮ Thaumaturgy Power: +3.03%",
+      " 🏹 Projectile Damage: +2.9%",
       "",
       " ☀ Enchant: Curse of Butterfingers",
       "",
@@ -2430,8 +2505,8 @@
             "max": 18.767423911410425
           },
           "MOVEMENT_SPEED": {
-            "min": 4.175428926662109,
-            "max": 4.4
+            "min": 0.004175428926662109,
+            "max": 0.0044
           },
           "PROJECTILE_DAMAGE": {
             "min": 10.320775426971824,
@@ -3315,7 +3390,7 @@
       },
       "MOVEMENT_SPEED": {
         "min": 0.002941604799539997,
-        "max": 3.3
+        "max": 0.0033
       }
     },
     "abilities": [],
@@ -3581,7 +3656,7 @@
       },
       "MOVEMENT_SPEED": {
         "min": 0.0056522673008661374,
-        "max": 6.6
+        "max": 0.0066
       }
     },
     "abilities": [],
@@ -3764,17 +3839,15 @@
     "lore": [
       "« Warrior Armor »",
       "",
-      " ⛨ Defense: +19.5",
-      " ⛨ Damage Reduction: -5.02%",
-      " ⛨ PvE Damage Reduction: +2.38%",
+      " ⛨ Defense: +18.5",
+      " ⛨ Damage Reduction: -5.5%",
+      " ❤ Health: +4.2",
       "",
-      " 🗡 Weapon Damage: +2.83%",
+      " 🗡 Weapon Damage: +9.97%",
       "",
-      " ⛏ Mining EXP: +46.29%",
-      " ☠ Archaeology EXP: +42.56%",
-      " ᚱ Runecarving EXP: +43.76%",
+      " ⏳ Cooldown Reduction: +5.78%",
       "",
-      " ☀ Enchant: Curse of Butterfingers",
+      " 🎣 Fishing EXP: +49.19%",
       "",
       "Touched by Loki.",
       "",
@@ -4073,7 +4146,7 @@
       },
       "MOVEMENT_SPEED": {
         "min": 0.009233243807255376,
-        "max": 9.9
+        "max": 0.0099
       }
     },
     "abilities": [],
@@ -4502,8 +4575,8 @@
             "max": -4.737969317775467
           },
           "MOVEMENT_SPEED": {
-            "min": 3.8427297657597674,
-            "max": 4.319763546298787
+            "min": 0.0038427297657597673,
+            "max": 0.004319763546298787
           },
           "FALL_DAMAGE_REDUCTION": {
             "min": 16.787814194203783,
@@ -4607,7 +4680,7 @@
       },
       "MOVEMENT_SPEED": {
         "min": 0.011502259285779916,
-        "max": 13.2
+        "max": 0.0132
       }
     },
     "abilities": [],
@@ -4910,11 +4983,11 @@
       },
       "KNOCKBACK_RESISTANCE": {
         "min": 0.225,
-        "max": 27.5
+        "max": 0.275
       },
       "MOVEMENT_SPEED": {
         "min": 0.014327426784953622,
-        "max": 16.5
+        "max": 0.0165
       }
     },
     "abilities": [],
@@ -5317,16 +5390,41 @@
             "max": 1.0
           }
         }
+      },
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "CRITICAL_STRIKE_CHANCE": {
+            "min": 1.204159630496238,
+            "max": 1.204159630496238
+          },
+          "DAMAGE_REDUCTION": {
+            "min": -5.096613233787142,
+            "max": -5.096613233787142
+          },
+          "PVP_DAMAGE_REDUCTION": {
+            "min": 1.054567520713457,
+            "max": 1.054567520713457
+          }
+        }
       }
     ],
     "lore": [
       "« Mage Armor »",
       "",
-      " ⛨ Defense: +1.8-2.2",
+      " ⛨ Defense: +2",
+      " ⛨ Damage Reduction: -5.1%",
+      " ⛨ PvP Damage Reduction: +1.05%",
       "",
-      " ☄ Magic Damage: +0.9-1.1%",
+      " 🗡 Critical Chance: +1.2%",
       "",
-      "Little magic booties.",
+      " ☄ Magic Damage: +1.1%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
       "",
       "[Wizard] Set Bonus:",
       "[4] +25% Magic Damage",
@@ -5774,16 +5872,19 @@
     "lore": [
       "« Mage Armor »",
       "",
-      " ⛨ Defense: +21.6-26.4",
+      " ⛨ Defense: +26.8",
+      " ⛨ Damage Reduction: -5%",
+      " ⛨ PvP Damage Reduction: +2.97%",
+      " ⛨ Block Power: +5.46%",
       "",
-      " ☄ Magic Damage: +2.7-3.3%",
+      " 🗡 Weapon Damage: +9.71%",
+      " ☄ Magic Damage: +5.79%",
+      " ☮ Thaumaturgy Power: +2.77%",
+      " 🏹 Projectile Damage: +10.1%",
       "",
-      " ☀ Enchant: Unbreaking I",
+      "Touched by Loki.",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      "",
-      "Perfect for ritual work.",
+      "Drops on death.",
       "",
       "[Wizard] Set Bonus:",
       "[4] +25% Magic Damage",
@@ -5845,8 +5946,8 @@
             "max": 2.5678295581233392
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 25.5183116287077,
-            "max": 25.5183116287077
+            "min": 0.255183116287077,
+            "max": 0.255183116287077
           },
           "PVE_DAMAGE_REDUCTION": {
             "min": 2.501381253197352,
@@ -5912,16 +6013,19 @@
     "lore": [
       "« Mage Armor »",
       "",
-      " ⛨ Defense: +16.2-19.8",
+      " ⛨ Defense: +18.1",
+      " ⛨ Damage Reduction: -5.3%",
       "",
-      " ☄ Magic Damage: +2.7-3.3%",
+      " 🗡 Critical Power: +13.81%",
       "",
-      " ☀ Enchant: Unbreaking I",
+      " 🗡 PvP Damage: +2.35%",
+      " ☄ Magic Damage: +2.7%",
+      " ☮ Thaumaturgy Power: +7.76%",
+      " 🏹 Projectile Damage: +7.61%",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      "Touched by Loki.",
       "",
-      "Black as pitch.",
+      "Drops on death.",
       "",
       "[Wizard] Set Bonus:",
       "[4] +25% Magic Damage",
@@ -5984,8 +6088,8 @@
             "max": -4.634497074778109
           },
           "MOVEMENT_SPEED": {
-            "min": 2.830939156957928,
-            "max": 2.988816932908964
+            "min": 0.002830939156957928,
+            "max": 0.002988816932908964
           },
           "THAUMATURGY_DAMAGE": {
             "min": 7.336087949866921,
@@ -6390,8 +6494,8 @@
             "max": 5.497628727420252
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 37.142836121248486,
-            "max": 37.142836121248486
+            "min": 0.37142836121248485,
+            "max": 0.37142836121248485
           },
           "PVP_DAMAGE": {
             "min": 7.099884779188378,
@@ -8812,8 +8916,8 @@
             "max": 9.309080454407475
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 27.139189223834453,
-            "max": 27.92180107364369
+            "min": 0.27139189223834453,
+            "max": 0.2792180107364369
           },
           "PVP_DAMAGE": {
             "min": 2.3702760805977463,
@@ -9164,17 +9268,15 @@
     "lore": [
       "« Ranger Armor »",
       "",
-      " ⛨ Defense: +15.8",
-      " ⛨ Damage Reduction: -5.12%",
-      " ⛨ PvE Damage Reduction: +3.18%",
+      " ⛨ Defense: +16.3",
+      " ⛨ Damage Reduction: -4.84%",
+      " ⛨ PvE Damage Reduction: +3.28%",
       "",
-      " 🗡 Weapon Damage: +10.43%",
-      " 🏹 Projectile Damage: +3.6%",
+      " 🗡 PvP Damage: +3.44%",
+      " 🏹 Projectile Damage: +4.13%",
       "",
-      " ☘ Herbalism EXP: +62.07%",
-      " ᚱ Runecarving EXP: +66%",
-      "",
-      " ☀ Enchant: Curse of Butterfingers",
+      " ☘ Herbalism EXP: +58.63%",
+      " 🎣 Fishing EXP: +55.2%",
       "",
       "Touched by Loki.",
       "",
@@ -9322,7 +9424,7 @@
             "max": -4.808445365999198
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 36.501562943704414,
+            "min": 0.36501562943704413,
             "max": 36.501562943704414
           },
           "CRITICAL_STRIKE_POWER": {
@@ -9430,8 +9532,8 @@
             "max": -4.5
           },
           "MOVEMENT_SPEED": {
-            "min": 4.051981898263933,
-            "max": 4.266180129115449
+            "min": 0.004051981898263933,
+            "max": 0.004266180129115449
           },
           "MAGIC_DAMAGE": {
             "min": 9.667605025857851,
@@ -10154,6 +10256,10 @@
           "DURATION": {
             "min": 4.0,
             "max": 4.0
+          },
+          "AMPLIFIER": {
+            "min": 1.0,
+            "max": 1.0
           }
         }
       }
@@ -10241,6 +10347,10 @@
           "DURATION": {
             "min": 4.0,
             "max": 4.0
+          },
+          "AMPLIFIER": {
+            "min": 1.0,
+            "max": 1.0
           }
         }
       }
@@ -10564,18 +10674,70 @@
             "max": 1.0
           }
         }
+      },
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "DAMAGE_REDUCTION": {
+            "min": -4.885756551255801,
+            "max": -4.885756551255801
+          },
+          "MOVEMENT_SPEED": {
+            "min": 0.0010921389517818696,
+            "max": 0.0010921389517818696
+          },
+          "PVE_DAMAGE_REDUCTION": {
+            "min": 0.8447171168184113,
+            "max": 0.8447171168184113
+          }
+        }
+      },
+      {
+        "displayName": "[\"\u00266of the Paragon\"]",
+        "stats": {
+          "PROJECTILE_DAMAGE": {
+            "min": 1.0560856585180056,
+            "max": 1.0560856585180056
+          },
+          "MAGIC_DAMAGE": {
+            "min": 0.9791638876323261,
+            "max": 0.9791638876323261
+          },
+          "DEFENSE": {
+            "min": 1.0,
+            "max": 1.0
+          },
+          "THAUMATURGY_DAMAGE": {
+            "min": 1.046688986864142,
+            "max": 1.046688986864142
+          },
+          "WEAPON_DAMAGE": {
+            "min": 1.0216471327998815,
+            "max": 1.0216471327998815
+          }
+        }
       }
     ],
     "lore": [
       "« Thaumaturge Armor »",
       "",
-      " ⛨ Defense: +1.8-2.2",
+      " ⛨ Defense: +3.1",
+      " ⛨ Damage Reduction: -4.89%",
+      " ⛨ PvE Damage Reduction: +0.84%",
       "",
-      " ☮ Thaumaturgy Power: +1.8-2.2%",
+      " 🗡 Weapon Damage: +1.02%",
+      " ☄ Magic Damage: +0.98%",
+      " ☮ Thaumaturgy Power: +3.14%",
+      " 🏹 Projectile Damage: +1.06%",
       "",
-      " ⏳ Cooldown Reduction: +0.5-0.6%",
+      " ⏳ Cooldown Reduction: +0.5%",
+      " ⌚ Movement Speed: +1.09%",
       "",
-      "Slide great on stone floors.",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
       "",
       "[Thaumaturge] Set Bonus:",
       "[4] +75% Thaumaturgy Power",
@@ -11164,8 +11326,8 @@
             "max": 15.869577051803782
           },
           "MOVEMENT_SPEED": {
-            "min": 2.862332463330367,
-            "max": 3.021655203022893
+            "min": 0.002862332463330367,
+            "max": 0.003021655203022893
           },
           "PVE_DAMAGE_REDUCTION": {
             "min": 2.557259300980182,
@@ -11238,18 +11400,23 @@
     "lore": [
       "« Thaumaturge Armor »",
       "",
-      " ⛨ Defense: +5.4-6.6",
+      " ⛨ Defense: +5.6",
+      " ⛨ Damage Reduction: -4.9%",
+      " ⛨ Fall Damage Reduction: +13.34%",
+      " ⛨ PvE Damage Reduction: +2.63%",
       "",
-      " ☮ Thaumaturgy Power: +5.4-6.6%",
+      " 🗡 Critical Power: +15.87%",
       "",
-      " ⏳ Cooldown Reduction: +1.4-1.7%",
+      " ☮ Thaumaturgy Power: +6.41%",
       "",
-      " ☀ Enchant: Unbreaking I",
+      " ⏳ Cooldown Reduction: +1.46%",
+      " ⌚ Movement Speed: +2.95%",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
-      "Soulful shoes for the discerning healer.",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
       "",
       "[Thaumaturge] Set Bonus:",
       "[4] +75% Thaumaturgy Power",
@@ -11670,9 +11837,9 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ☮ Thaumaturgy Power: +18-22%",
+      " ☮ Thaumaturgy Power: +21.04%",
       " ❤ Health Regeneration: +0.04",
-      " ⏳ Cooldown Reduction: +3.6-4.4%",
+      " ⏳ Cooldown Reduction: +3.68%",
       "",
       " ☀ Enchant: Unbreaking I",
       "",
@@ -13203,7 +13370,7 @@
       "OHEFG BS YVSR!",
       "",
       "Tier: RARE",
-      "Durability: 922 / 1200"
+      "Durability: 920 / 1200"
     ]
   },
   {
@@ -14012,15 +14179,15 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ⛨ Defense: +2.7-3.3",
+      " ⛨ Defense: +3",
       "",
-      " ☘ Herbalism EXP: +10%",
-      " ☘ Herbalism Skill: +2",
+      " 🍖 Herbalism EXP: +10%",
+      " 🍖 Herbalism Skill: +2",
       "",
       "It\u0027s not much but it does the job.",
       "",
       "Tier: COMMON",
-      "Durability: 400 / 400"
+      "Durability: 343 / 400"
     ]
   },
   {
@@ -16999,11 +17166,11 @@
     "lore": [
       "« Logging Tool »",
       "",
-      " 🗡 Attack Damage: +5.2-6.3",
+      " 🗡 Attack Damage: 5.56",
       " 🗡 Attack Speed: 1",
       " 🗡 Critical Chance: +2.5%",
       "",
-      " 🪓 Logging EXP: +72-88%",
+      " 🪓 Logging EXP: +85.05%",
       " 🪓 Logging Skill: +8",
       "",
       " ☀ Enchant: Efficiency I",
@@ -17016,7 +17183,7 @@
       "Like shifting diamonds...",
       "",
       "Tier: RARE",
-      "Durability: 1600 / 1600"
+      "Durability: 590 / 1600"
     ]
   },
   {
@@ -17092,13 +17259,22 @@
     "lore": [
       "« Logging Armor »",
       "",
-      " ⛨ Defense: +9.5-10.5",
+      " ⛨ Defense: +10.2",
       "",
-      " 🪓 Logging EXP: +90-110%",
+      " ∞ Class EXP: +25.09%",
+      " ☘ Herbalism EXP: +8.56%",
+      " 🎣 Fishing EXP: +16.06%",
+      " ⛏ Mining EXP: +8.4%",
+      " 🪓 Logging EXP: +116.97%",
+      " ☠ Archaeology EXP: +17.05%",
+      " ᚱ Runecarving EXP: +16.33%",
+      " ☘ Herbalism Skill: +1",
+      " ⛏ Mining Skill: +2",
+      " 🪓 Logging Skill: +3",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
       "",
       "I\u0027m a lumberjack",
       "and I\u0027m ok!",
@@ -17108,7 +17284,7 @@
       "[4] +10 Logging Skill",
       "",
       "Tier: EPIC",
-      "Durability: 2000 / 2000"
+      "Durability: 1927 / 2000"
     ]
   },
   {
@@ -17139,13 +17315,19 @@
     "lore": [
       "« Logging Armor »",
       "",
-      " ⛨ Defense: +38-42",
+      " ⛨ Defense: +41.1",
       "",
-      " 🪓 Logging EXP: +90-110%",
+      " ∞ Class EXP: +24.59%",
+      " 🪓 Logging EXP: +125.14%",
+      " ☠ Archaeology EXP: +25.54%",
+      " ᚱ Runecarving EXP: +16.39%",
+      " ☘ Herbalism Skill: +3",
+      " ⛏ Mining Skill: +1",
+      " 🪓 Logging Skill: +3",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
       "",
       "I sleep all night",
       "and I work all day!",
@@ -17155,7 +17337,7 @@
       "[4] +10 Logging Skill",
       "",
       "Tier: EPIC",
-      "Durability: 2000 / 2000"
+      "Durability: 1927 / 2000"
     ]
   },
   {
@@ -17186,13 +17368,22 @@
     "lore": [
       "« Logging Armor »",
       "",
-      " ⛨ Defense: +28.5-31.5",
+      " ⛨ Defense: +28.5",
       "",
-      " 🪓 Logging EXP: +90-110%",
+      " ∞ Class EXP: +25.29%",
+      " ☘ Herbalism EXP: +8.86%",
+      " ⛏ Mining EXP: +25.57%",
+      " 🪓 Logging EXP: +141.65%",
+      " ☠ Archaeology EXP: +8.1%",
+      " ᚱ Runecarving EXP: +7.96%",
+      " ☘ Herbalism Skill: +1",
+      " 🎣 Fishing Skill: +2",
+      " 🪓 Logging Skill: +3",
+      " ☠ Archaeology Skill: +1",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
       "",
       "He\u0027s a lumberjack",
       "and he\u0027s ok!",
@@ -17202,7 +17393,7 @@
       "[4] +10 Logging Skill",
       "",
       "Tier: EPIC",
-      "Durability: 2000 / 2000"
+      "Durability: 1927 / 2000"
     ]
   },
   {
@@ -17223,13 +17414,22 @@
     "lore": [
       "« Logging Armor »",
       "",
-      " ⛨ Defense: +9.5-10.5",
+      " ⛨ Defense: +9.9",
       "",
-      " 🪓 Logging EXP: +95-105%",
+      " ∞ Class EXP: +25.87%",
+      " ☘ Herbalism EXP: +17.33%",
+      " 🎣 Fishing EXP: +24.07%",
+      " ⛏ Mining EXP: +8.54%",
+      " 🪓 Logging EXP: +124.73%",
+      " ☠ Archaeology EXP: +8.63%",
+      " ᚱ Runecarving EXP: +16.38%",
+      " ⛏ Mining Skill: +1",
+      " 🪓 Logging Skill: +3",
+      " ☠ Archaeology Skill: +1",
       "",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
       "",
       "He sleeps all night",
       "and he works all day!",
@@ -17239,7 +17439,7 @@
       "[4] +10 Logging Skill",
       "",
       "Tier: EPIC",
-      "Durability: 2000 / 2000"
+      "Durability: 1927 / 2000"
     ]
   },
   {
@@ -17333,22 +17533,29 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ⛨ Defense: +13.5-16.5",
+      " ⛨ Defense: +14.8",
       "",
       " ☀ Enchant: Unbreaking II",
       "",
-      " 🪓 Logging EXP: +50%",
-      " 🪓 Logging Skill: +10",
+      " ∞ Class EXP: +25.07%",
+      " ⛏ Mining EXP: +8.32%",
+      " 🪓 Logging EXP: +76.35%",
+      " ☠ Archaeology EXP: +8.29%",
+      " ☘ Herbalism Skill: +1",
+      " 🎣 Fishing Skill: +1",
+      " ⛏ Mining Skill: +3",
+      " 🪓 Logging Skill: +13",
+      " ☠ Archaeology Skill: +1",
       "",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
+      " ᚱ Clarity - Rank 5",
       " ᚱ Empty Empowered Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
-      " ᚱ Empty Runecarving Socket",
       "",
       "It swirls with the elements.",
       "",
       "Tier: EPIC",
-      "Durability: 2000 / 2000"
+      "Durability: 1939 / 2000"
     ]
   },
   {
@@ -18784,9 +18991,9 @@
     "lore": [
       "« Mining Armor »",
       "",
-      " ⛨ Defense: +1.9-2.1",
+      " ⛨ Defense: +2",
       "",
-      " ⛏ Mining EXP: +18-22%",
+      " ⛏ Mining EXP: +31.83%",
       "",
       "Keeps your brain inside.",
       "",
@@ -18795,7 +19002,7 @@
       "[4] +10 Mining Skill",
       "",
       "Tier: COMMON",
-      "Durability: 400 / 400"
+      "Durability: 373 / 400"
     ]
   },
   {
@@ -18816,9 +19023,9 @@
     "lore": [
       "« Mining Armor »",
       "",
-      " ⛨ Defense: +7.6-8.4",
+      " ⛨ Defense: +8.4",
       "",
-      " ⛏ Mining EXP: +18-22%",
+      " ⛏ Mining EXP: +19.6%",
       "",
       "Deflects rocks and debris.",
       "",
@@ -18827,7 +19034,7 @@
       "[4] +10 Mining Skill",
       "",
       "Tier: COMMON",
-      "Durability: 400 / 400"
+      "Durability: 373 / 400"
     ]
   },
   {
@@ -18848,9 +19055,9 @@
     "lore": [
       "« Mining Armor »",
       "",
-      " ⛨ Defense: +5.7-6.3",
+      " ⛨ Defense: +6.3",
       "",
-      " ⛏ Mining EXP: +18-22%",
+      " ⛏ Mining EXP: +19.43%",
       "",
       "For striding through the stones.",
       "",
@@ -18859,7 +19066,7 @@
       "[4] +10 Mining Skill",
       "",
       "Tier: COMMON",
-      "Durability: 400 / 400"
+      "Durability: 373 / 400"
     ]
   },
   {
@@ -18890,9 +19097,9 @@
     "lore": [
       "« Mining Armor »",
       "",
-      " ⛨ Defense: +1.9-2.1",
+      " ⛨ Defense: +2.1",
       "",
-      " ⛏ Mining EXP: +18-22%",
+      " ⛏ Mining EXP: +29.98%",
       "",
       "Covered in soot and soil.",
       "",
@@ -18901,7 +19108,7 @@
       "[4] +10 Mining Skill",
       "",
       "Tier: COMMON",
-      "Durability: 400 / 400"
+      "Durability: 373 / 400"
     ]
   },
   {
@@ -19193,11 +19400,11 @@
     "lore": [
       "« Mining Tool »",
       "",
-      " 🗡 Attack Damage: +2.9-3.6",
+      " 🗡 Attack Damage: 3.42",
       " 🗡 Attack Speed: 1",
       " 🗡 Critical Chance: +2.5%",
       "",
-      " ⛏ Mining EXP: +36-44%",
+      " ⛏ Mining EXP: +39.84%",
       " ⛏ Mining Skill: +4",
       "",
       " ☀ Enchant: Unbreaking I",
@@ -19209,7 +19416,7 @@
       "thunderstorms...",
       "",
       "Tier: UNCOMMON",
-      "Durability: 800 / 800"
+      "Durability: 509 / 800"
     ]
   },
   {
@@ -20152,9 +20359,9 @@
     "lore": [
       "« Runecarving Armor »",
       "",
-      " ⛨ Defense: +3.8-4.2",
+      " ⛨ Defense: +4",
       "",
-      " ᚱ Runecarving EXP: +36-44%",
+      " ᚱ Runecarving EXP: +48.73%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -20185,9 +20392,9 @@
     "lore": [
       "« Runecarving Armor »",
       "",
-      " ⛨ Defense: +15.2-16.8",
+      " ⛨ Defense: +15.7",
       "",
-      " ᚱ Runecarving EXP: +36-44%",
+      " ᚱ Runecarving EXP: +44%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -20230,9 +20437,9 @@
     "lore": [
       "« Runecarving Armor »",
       "",
-      " ⛨ Defense: +11.4-12.6",
+      " ⛨ Defense: +12.6",
       "",
-      " ᚱ Runecarving EXP: +36-44%",
+      " ᚱ Runecarving EXP: +52.23%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -20275,9 +20482,9 @@
     "lore": [
       "« Runecarving Armor »",
       "",
-      " ⛨ Defense: +3.8-4.2",
+      " ⛨ Defense: +3.9",
       "",
-      " ᚱ Runecarving EXP: +36-44%",
+      " ᚱ Runecarving EXP: +41.55%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -20930,13 +21137,23 @@
       }
     },
     "abilities": [],
-    "mods": [],
+    "mods": [
+      {
+        "displayName": "[\"\u00266of the Gourmand\"]",
+        "stats": {
+          "ADDITIONAL_EXPERIENCE_COOKING": {
+            "min": 9.0,
+            "max": 9.0
+          }
+        }
+      }
+    ],
     "lore": [
       "« Cooking Armor »",
       "",
-      " ⛨ Defense: +3.8-4.2",
+      " ⛨ Defense: +4",
       "",
-      " 🍖 Cooking EXP: +36-44%",
+      " 🍖 Cooking EXP: +49.01%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -20967,9 +21184,9 @@
     "lore": [
       "« Cooking Armor »",
       "",
-      " ⛨ Defense: +15.2-16.8",
+      " ⛨ Defense: +16",
       "",
-      " 🍖 Cooking EXP: +36-44%",
+      " 🍖 Cooking EXP: +40.01%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -21000,9 +21217,9 @@
     "lore": [
       "« Cooking Armor »",
       "",
-      " ⛨ Defense: +11.4-12.6",
+      " ⛨ Defense: +12",
       "",
-      " 🍖 Cooking EXP: +36-44%",
+      " 🍖 Cooking EXP: +39.99%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -21033,9 +21250,9 @@
     "lore": [
       "« Cooking Armor »",
       "",
-      " ⛨ Defense: +3.8-4.2",
+      " ⛨ Defense: +4",
       "",
-      " 🍖 Cooking EXP: +36-44%",
+      " 🍖 Cooking EXP: +40.01%",
       "",
       " ᚱ Empty Runecarving Socket",
       "",
@@ -22558,7 +22775,7 @@
       "Drops on death.",
       "",
       "Tier: RARE",
-      "Durability: 607 / 1200"
+      "Durability: 604 / 1200"
     ]
   },
   {
@@ -22569,8 +22786,6 @@
     "mods": [],
     "lore": [
       "« Currency »",
-      "",
-      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Value: 10 Coin",
       "",
@@ -22681,6 +22896,12 @@
     "lore": [
       "« Runecarving Rune »",
       "",
+      " ⛨ PvP Damage Reduction: +0.66%",
+      " ❤ Health: +0.7",
+      "",
+      " 🗡 PvP Damage: +0.57%",
+      " 🏹 Projectile Damage: +1.49%",
+      "",
       "It\u0027s full of murderous rage...",
       "",
       "Hold this over an item with an",
@@ -22698,8 +22919,6 @@
     "mods": [],
     "lore": [
       "« Currency »",
-      "",
-      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Value: 50 Coin",
       "",
@@ -22897,16 +23116,15 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ⛨ Defense: +16.3",
-      " ⛨ Damage Reduction: -4.5%",
-      " ⛨ Block Power: +16.45%",
-      " ⛨ Block Rating: +18.09%",
-      " ❤ Health: +14.1",
+      " ⛨ Defense: +18.7",
+      " ⛨ Damage Reduction: -4.68%",
+      " ⛨ PvP Damage Reduction: +3.07%",
+      " ⛨ Block Power: +15.94%",
+      " ⛨ Block Rating: +16.06%",
+      " ❤ Health: +15.7",
       "",
-      " ☮ Thaumaturgy Power: +7.79%",
-      " 🏹 Projectile Damage: +6.92%",
-      "",
-      " ☀ Enchant: Curse of Butterfingers",
+      " 🗡 PvP Damage: +2.53%",
+      " ☄ Magic Damage: +8.1%",
       "",
       "Touched by Loki.",
       "",
@@ -22983,11 +23201,12 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ⛨ Defense: +8.1",
+      " ⛨ Defense: +9.1",
       "",
-      " ☄ Magic Damage: +20.92%",
-      " ⛨ Damage Reduction: -5.5%",
-      " ⛨ Fall Damage Reduction: +14.55%",
+      " 🗡 PvE Damage: +2.67%",
+      " ☄ Magic Damage: +18.76%",
+      " ⛨ Damage Reduction: -4.97%",
+      " ⛨ Fall Damage Reduction: +14.09%",
       "",
       "Touched by Loki.",
       "",
@@ -23075,14 +23294,14 @@
       "",
       " ☞ Two-Handed",
       "",
-      " ⛨ Damage Reduction: -4.67%",
+      " ⛨ Damage Reduction: -5.17%",
       "",
       " ☀ Enchant: Unbreaking I",
       "",
       "\u003e| Right Click ||| Ring of Mercy",
       " \u003e| Bless Duration: 3",
       " \u003e| Cooldown: 20",
-      " \u003e| Heal: 8.8",
+      " \u003e| Heal: 9.3",
       " \u003e| Bless Strength: 3",
       " \u003e| Radius: 2.5",
       "",
@@ -23260,12 +23479,11 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " 🗡 PvP Damage: +2.49%",
-      " ☮ Thaumaturgy Power: +13.99%",
-      " ⛨ Damage Reduction: -4.6%",
-      " ⛨ Block Rating: +5.04%",
+      " ☮ Thaumaturgy Power: +19.59%",
+      " ⛨ Damage Reduction: -4.76%",
+      " ⛨ PvE Damage Reduction: +2.57%",
       " ❤ Health Regeneration: +0.03",
-      " ⏳ Cooldown Reduction: +2.99%",
+      " ⏳ Cooldown Reduction: +2.88%",
       "",
       "Touched by Loki.",
       "",
@@ -23426,13 +23644,13 @@
       " ☞ Two-Handed",
       "",
       "\u003e| Right Click ||| Frostbolt",
-      " \u003e| Damage: 12.4",
+      " \u003e| Damage: 11.9",
       " \u003e| Cooldown: 2",
       "",
       "A contained flurry.",
       "",
       "Tier: COMMON",
-      "Durability: 200 / 200"
+      "Durability: 197 / 200"
     ]
   },
   {
@@ -23467,7 +23685,7 @@
       " ☞ Two-Handed",
       "",
       "\u003e| Right Click ||| Firebolt",
-      " \u003e| Damage: 10.1",
+      " \u003e| Damage: 9",
       " \u003e| Ignite: 3",
       " \u003e| Cooldown: 2",
       "",
@@ -23555,17 +23773,18 @@
       "",
       " ☞ Two-Handed",
       "",
-      " ⛨ Damage Reduction: -4.7%",
+      " ⛨ Damage Reduction: -4.6%",
       "",
-      " ☄ Magic Damage: +7.28%",
+      " 🗡 PvP Damage: +2.57%",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
       " ☀ Enchant: Unbreaking I",
       "",
       "\u003e| Right Click ||| Pressure Wave",
-      " \u003e| Damage: 9",
+      " \u003e| Damage: 8.6",
       " \u003e| Cooldown: 10",
-      " \u003e| Angle: 56.3",
-      " \u003e| Force: 6.8",
+      " \u003e| Angle: 64.7",
+      " \u003e| Force: 6.3",
       "",
       "Touched by Loki.",
       "",
@@ -23653,15 +23872,16 @@
       "",
       " ☞ Two-Handed",
       "",
-      " ⛨ Defense: +7.8",
-      " ⛨ Damage Reduction: -5.03%",
+      " ⛨ Defense: +8.2",
+      " ⛨ Damage Reduction: -5.17%",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
       " ☀ Enchant: Unbreaking I",
       "",
       "\u003e| Right Click ||| Life Drain",
-      " \u003e| Damage: 10",
+      " \u003e| Damage: 10.2",
       " \u003e| Cooldown: 2",
-      " \u003e| Heal: 1.6",
+      " \u003e| Heal: 1.5",
       "",
       "Touched by Loki.",
       "",
@@ -24020,16 +24240,16 @@
       "",
       " ☞ Two-Handed",
       "",
-      " ⛨ Defense: +8.6",
-      " ⛨ Damage Reduction: -4.95%",
+      " ⛨ Damage Reduction: -4.69%",
       "",
-      " 🗡 PvE Damage: +2.49%",
+      " 🗡 PvE Damage: +2.35%",
+      " ☄ Magic Damage: +15.68%",
       "",
       " ☀ Enchant: Curse of Butterfingers",
       " ☀ Enchant: Unbreaking I",
       "",
       "\u003e| Right Click ||| Firebolt",
-      " \u003e| Damage: 19.5",
+      " \u003e| Damage: 18.4",
       " \u003e| Ignite: 5",
       " \u003e| Cooldown: 2",
       "",
@@ -24063,7 +24283,7 @@
     "lore": [
       "« Logging Tool »",
       "",
-      " 🗡 Attack Damage: +0.9-1.1",
+      " 🗡 Attack Damage: 1.03",
       " 🗡 Attack Speed: 1",
       " 🗡 Critical Chance: +2.5%",
       "",
@@ -24074,7 +24294,7 @@
       "Cannot be repaired.",
       "",
       "Tier: EPIC",
-      "Durability: 64 / 64"
+      "Durability: 59 / 64"
     ]
   },
   {
@@ -24287,6 +24507,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "Natures candy.",
       "",
       "Drops on death.",
@@ -24353,6 +24575,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "It\u0027s strong and flexible.",
       "",
       "Drops on death.",
@@ -24369,8 +24593,6 @@
     "lore": [
       "« Material »",
       "",
-      " ☀ Enchant: Curse of Butterfingers",
-      "",
       "It shines in the sun.",
       "",
       "Drops on death.",
@@ -24386,6 +24608,8 @@
     "mods": [],
     "lore": [
       "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "It softly beats in ",
       "your hands.",
@@ -24404,8 +24628,6 @@
     "lore": [
       "« Material »",
       "",
-      " ☀ Enchant: Curse of Butterfingers",
-      "",
       "It\u0027s a little rough.",
       "",
       "Drops on death.",
@@ -24422,6 +24644,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "It\u0027s flexible and warm.",
       "",
       "Drops on death.",
@@ -24437,6 +24661,8 @@
     "mods": [],
     "lore": [
       "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "One for your collection.",
       "",
@@ -24596,7 +24822,7 @@
         "max": 8.25
       },
       "ATTACK_DAMAGE": {
-        "min": 13.169074653516052,
+        "min": 13.066755676320351,
         "max": 15.400000000000002
       },
       "ATTACK_SPEED": {
@@ -24688,25 +24914,25 @@
     "lore": [
       "« Mace »",
       "",
-      " ⛨ Damage Reduction: -4.85%",
-      " ⛨ PvP Damage Reduction: +3.16%",
-      " ⛨ Block Cooldown Reduction: +7.84%",
+      " ⛨ Damage Reduction: -4.5%",
+      " ⛨ PvP Damage Reduction: +3.03%",
+      " ⛨ Block Rating: +5.06%",
+      " ⛨ Block Cooldown Reduction: +7.68%",
       " ❤ Health Regeneration: +0.15",
       "",
-      " 🗡 Attack Damage: 15.4",
+      " 🗡 Attack Damage: 14.54",
       " 🗡 Attack Speed: 1",
-      " ⚒ Blunt Power: 2.029",
-      " ⚒ Blunt Rating: 32.36%",
+      " ⚒ Blunt Power: 2.023",
+      " ⚒ Blunt Rating: 31.24%",
       "",
-      " 🗡 PvP Damage: +2.59%",
-      "",
+      " ☀ Enchant: Curse of Butterfingers",
       " ☀ Enchant: Unbreaking III",
       "",
       "\u003e| Right Click ||| Rock And Awe",
-      " \u003e| Damage: 16.2",
-      " \u003e| Slow Duration: 5.2",
-      " \u003e| Cooldown: 21.1",
-      " \u003e| Radius: 5.1",
+      " \u003e| Damage: 15.4",
+      " \u003e| Slow Duration: 5.5",
+      " \u003e| Cooldown: 18.5",
+      " \u003e| Radius: 4.8",
       "",
       "Touched by Loki.",
       "",
@@ -24791,12 +25017,15 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " 🗡 PvE Damage: +2.75%",
-      " 🗡 Weapon Damage: +18.94%",
-      " ⛨ Damage Reduction: -5.05%",
-      " ⛨ PvE Damage Reduction: +2.67%",
-      " ⛨ Knockback Resistance: +15.09%",
-      " ⌚ Movement Speed: +8.51%",
+      " ⛨ Defense: +8.6",
+      "",
+      " 🗡 PvE Damage: +2.51%",
+      " 🗡 Weapon Damage: +23.2%",
+      " ⛨ Damage Reduction: -5.11%",
+      " ⛨ Knockback Resistance: +14.42%",
+      " ⌚ Movement Speed: +9.28%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Touched by Loki.",
       "",
@@ -24889,9 +25118,9 @@
       "",
       " ☞ Ignores Two-Handed Restrictions",
       "",
-      " ⛨ Defense: +5.4-6.6",
+      " ⛨ Defense: +5.9",
       "",
-      " ⛏ Mining EXP: +20%",
+      " ⛏ Mining EXP: +24.85%",
       " ⛏ Mining Skill: +4",
       "",
       " ᚱ Empty Runecarving Socket",
@@ -25102,8 +25331,6 @@
     "lore": [
       "« Material »",
       "",
-      " ☀ Enchant: Curse of Butterfingers",
-      "",
       "They\u0027re kind of chewy.",
       "",
       "Drops on death.",
@@ -25132,6 +25359,8 @@
     "mods": [],
     "lore": [
       "« Currency »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "Value: 1 Coin",
       "",
@@ -25248,7 +25477,7 @@
       "",
       " ⏳ 60 s Cooldown",
       "",
-      " ◆ 10 Charges Left",
+      " ◆ 8 Charges Left",
       "",
       "Glowing is good...",
       "Right...?",
@@ -25383,6 +25612,8 @@
     "mods": [],
     "lore": [
       "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "It knows it\u0027s wheat.",
       "",
@@ -27558,8 +27789,8 @@
             "max": 18.767423911410425
           },
           "MOVEMENT_SPEED": {
-            "min": 4.175428926662109,
-            "max": 4.4
+            "min": 0.004175428926662109,
+            "max": 0.0044
           },
           "PROJECTILE_DAMAGE": {
             "min": 10.320775426971824,
@@ -27686,8 +27917,8 @@
             "max": 3.2594075220672405
           },
           "KNOCKBACK_RESISTANCE": {
-            "min": 34.37960161196649,
-            "max": 34.37960161196649
+            "min": 0.3437960161196649,
+            "max": 0.3437960161196649
           },
           "MAGIC_DAMAGE": {
             "min": 10.89393987563102,
@@ -28509,6 +28740,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "IT\u0027S RAW!",
       "",
       "Drops on death.",
@@ -28524,6 +28757,8 @@
     "mods": [],
     "lore": [
       "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "IT\u0027S RAW!",
       "",
@@ -29760,7 +29995,7 @@
       "Go forth and slay!",
       "",
       "Tier: COMMON",
-      "Durability: 115 / 400"
+      "Durability: 400 / 400"
     ]
   },
   {
@@ -31770,6 +32005,10 @@
     "lore": [
       "« Runecarving Rune »",
       "",
+      " ☄ Magic Damage: +1.4%",
+      "",
+      " ∞ Class EXP: +1.58%",
+      "",
       "All manner of magics swirl inside...",
       "",
       "Hold this over an item with an",
@@ -32674,6 +32913,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "IT\u0027S RAW!",
       "",
       "Drops on death.",
@@ -32690,6 +32931,8 @@
     "lore": [
       "« Material »",
       "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
       "IT\u0027S RAW!",
       "",
       "Drops on death.",
@@ -32705,6 +32948,8 @@
     "mods": [],
     "lore": [
       "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
       "",
       "IT\u0027S RAW!",
       "",
@@ -33500,6 +33745,547 @@
       "Tasty land rights...",
       "",
       "Tier: RARE"
+    ]
+  },
+  {
+    "id": "T2_RANDOM_BOW",
+    "revisionId": 300,
+    "stats": {
+      "ATTACK_DAMAGE": {
+        "min": 14.578530401559767,
+        "max": 15.219275391089548
+      },
+      "CRITICAL_STRIKE_CHANCE": {
+        "min": 7.140010273051409,
+        "max": 7.282340226906052
+      },
+      "PROJECTILE_DAMAGE": {
+        "min": 11.849402100698219,
+        "max": 12.258261254332302
+      },
+      "CRITICAL_STRIKE_POWER": {
+        "min": 28.67824894920331,
+        "max": 28.974294003222234
+      },
+      "ARROW_VELOCITY": {
+        "min": 1.2126522938692572,
+        "max": 1.2173557630769305
+      }
+    },
+    "abilities": [],
+    "mods": [
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "PVE_DAMAGE": {
+            "min": 1.6251141959096933,
+            "max": 1.711750816899913
+          },
+          "DAMAGE_REDUCTION": {
+            "min": -4.926927437341125,
+            "max": -4.532487896130875
+          },
+          "PVP_DAMAGE": {
+            "min": 1.7497638558267887,
+            "max": 1.7497638558267887
+          },
+          "PROJECTILE_DAMAGE": {
+            "min": 5.084355931604435,
+            "max": 5.084355931604435
+          }
+        }
+      },
+      {
+        "displayName": "[\"\u00266Serrated\"]",
+        "stats": {
+          "ATTACK_DAMAGE": {
+            "min": 2.0,
+            "max": 2.0
+          }
+        }
+      }
+    ],
+    "lore": [
+      "« Bow »",
+      "",
+      " ☞ Two-Handed",
+      "",
+      " ⛨ Damage Reduction: -4.93%",
+      "",
+      " 🗡 Attack Damage: 14.58",
+      " 🗡 Critical Chance: +7.28%",
+      " 🗡 Critical Power: +28.97%",
+      "",
+      " 🗡 PvE Damage: +1.63%",
+      " 🏹 Projectile Damage: +16.93%",
+      " 🏹 Arrow Velocity: 1.21",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: UNCOMMON",
+      "Durability: 800 / 800"
+    ]
+  },
+  {
+    "id": "SECRETS_CLASS",
+    "revisionId": 5,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Knowledge »",
+      "",
+      "Teaches you some secret",
+      "combat knowledge when",
+      "consumed.",
+      "",
+      "It\u0027s full of experience.",
+      "Tasty experience...",
+      "",
+      "Tier: RARE"
+    ]
+  },
+  {
+    "id": "PRISTINE_WOOD",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "It hums with energy.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "PETAL_LILAC",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "A piece of something pretty.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "PETAL_PEONY",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "A piece of something pretty.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "PETAL_SUNFLOWER",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "A piece of something pretty.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "PETAL_ROSE",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "A piece of something pretty.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "FLOUR",
+    "revisionId": 201,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "Just add water!",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "BUTTER",
+    "revisionId": 201,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "You always knew...",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "CACTUS_BOOTS",
+    "revisionId": 400,
+    "stats": {
+      "WEAPON_DAMAGE": {
+        "min": 1.0465615995550521,
+        "max": 1.0465615995550521
+      },
+      "DEFENSE": {
+        "min": 6.3290203442460955,
+        "max": 6.3290203442460955
+      }
+    },
+    "abilities": [],
+    "mods": [
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "PVE_DAMAGE": {
+            "min": 0.8163710851219101,
+            "max": 0.8163710851219101
+          },
+          "DAMAGE_REDUCTION": {
+            "min": -5.1936744065399605,
+            "max": -5.1936744065399605
+          },
+          "MOVEMENT_SPEED": {
+            "min": 9.826823641341032E-4,
+            "max": 9.826823641341032E-4
+          }
+        }
+      }
+    ],
+    "lore": [
+      "« Warrior Armor »",
+      "",
+      " ⛨ Defense: +6.3",
+      " ⛨ Damage Reduction: -5.19%",
+      "",
+      " 🗡 PvE Damage: +0.82%",
+      " 🗡 Weapon Damage: +1.05%",
+      "",
+      " ⌚ Movement Speed: +0.98%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
+      "",
+      "[Warrior] Set Bonus:",
+      "[4] +25% Weapon Damage",
+      "[4] +5% Movement Speed",
+      "[4] +20% Knockback Resistance",
+      "",
+      "Tier: COMMON",
+      "Durability: 400 / 400"
+    ]
+  },
+  {
+    "id": "FISH_SUSHIPEEL",
+    "revisionId": 2,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Food »",
+      "",
+      " ❤ Restores 1 Health",
+      " 🍖 Restores 1 Food",
+      "",
+      "Do you eat your sushi with",
+      "or without the peel?",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "STONE_BOOTS",
+    "revisionId": 400,
+    "stats": {
+      "DEFENSE": {
+        "min": 11.299894503022385,
+        "max": 11.299894503022385
+      },
+      "WEAPON_DAMAGE": {
+        "min": 2.0573688399996413,
+        "max": 2.0573688399996413
+      }
+    },
+    "abilities": [],
+    "mods": [
+      {
+        "displayName": "[\"\u00266of the Paragon\"]",
+        "stats": {
+          "PROJECTILE_DAMAGE": {
+            "min": 1.8,
+            "max": 1.8
+          },
+          "MAGIC_DAMAGE": {
+            "min": 2.1421551312220726,
+            "max": 2.1421551312220726
+          },
+          "DEFENSE": {
+            "min": 2.0,
+            "max": 2.0
+          },
+          "THAUMATURGY_DAMAGE": {
+            "min": 1.9577915142694613,
+            "max": 1.9577915142694613
+          },
+          "WEAPON_DAMAGE": {
+            "min": 2.1359485252453405,
+            "max": 2.1359485252453405
+          }
+        }
+      },
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "DAMAGE_REDUCTION": {
+            "min": -4.9737740296437245,
+            "max": -4.9737740296437245
+          },
+          "PVP_DAMAGE_REDUCTION": {
+            "min": 2.030069812164593,
+            "max": 2.030069812164593
+          },
+          "FALL_DAMAGE_REDUCTION": {
+            "min": 8.717509901234429,
+            "max": 8.717509901234429
+          }
+        }
+      }
+    ],
+    "lore": [
+      "« Warrior Armor »",
+      "",
+      " ⛨ Defense: +13.3",
+      " ⛨ Damage Reduction: -4.97%",
+      " ⛨ Fall Damage Reduction: +8.72%",
+      " ⛨ PvP Damage Reduction: +2.03%",
+      "",
+      " 🗡 Weapon Damage: +4.19%",
+      " ☄ Magic Damage: +2.14%",
+      " ☮ Thaumaturgy Power: +1.96%",
+      " 🏹 Projectile Damage: +1.8%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
+      "",
+      "[Warrior] Set Bonus:",
+      "[4] +25% Weapon Damage",
+      "[4] +5% Movement Speed",
+      "[4] +20% Knockback Resistance",
+      "",
+      "Tier: UNCOMMON",
+      "Durability: 800 / 800"
+    ]
+  },
+  {
+    "id": "SHOTCALLER_BOOTS",
+    "revisionId": 400,
+    "stats": {
+      "PROJECTILE_DAMAGE": {
+        "min": 1.049632588750817,
+        "max": 1.049632588750817
+      },
+      "DEFENSE": {
+        "min": 4.041512779249766,
+        "max": 4.041512779249766
+      }
+    },
+    "abilities": [],
+    "mods": [
+      {
+        "displayName": "[\"\u0026dCorrupted\"]",
+        "stats": {
+          "DAMAGE_REDUCTION": {
+            "min": -5.2146837419364225,
+            "max": -5.2146837419364225
+          },
+          "PVE_DAMAGE_REDUCTION": {
+            "min": 0.8716372287070121,
+            "max": 0.8716372287070121
+          },
+          "MAGIC_DAMAGE": {
+            "min": 2.6380802154548832,
+            "max": 2.6380802154548832
+          }
+        }
+      }
+    ],
+    "lore": [
+      "« Ranger Armor »",
+      "",
+      " ⛨ Defense: +4",
+      " ⛨ Damage Reduction: -5.21%",
+      " ⛨ PvE Damage Reduction: +0.87%",
+      "",
+      " ☄ Magic Damage: +2.64%",
+      " 🏹 Projectile Damage: +1.05%",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Touched by Loki.",
+      "",
+      "Drops on death.",
+      "",
+      "[Ranger] Set Bonus:",
+      "[4] +25% Projectile Damage",
+      "[4] +5% Critical Strike Chance",
+      "[4] +10% Critical Strike Power",
+      "",
+      "Tier: COMMON",
+      "Durability: 400 / 400"
+    ]
+  },
+  {
+    "id": "FISH_BREAKFISH",
+    "revisionId": 1,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "Part of a balanced Breakfish.",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "FISH_CARP",
+    "revisionId": 1,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "It\u0027s so crusty!",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: COMMON"
+    ]
+  },
+  {
+    "id": "FISH_THORFISH",
+    "revisionId": 1,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Food »",
+      "",
+      " 🍖 Restores 1 Food",
+      "",
+      "It\u0027s the fat version...",
+      "",
+      "Tier: RARE"
+    ]
+  },
+  {
+    "id": "FISH_NIGHTFISH",
+    "revisionId": 1,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "Fighter of the Dayfish",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: EPIC"
+    ]
+  },
+  {
+    "id": "FISH_DAYFISH",
+    "revisionId": 1,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      "Fighter of the Nightfish",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: EPIC"
+    ]
+  },
+  {
+    "id": "NUTMEG",
+    "revisionId": 200,
+    "stats": {},
+    "abilities": [],
+    "mods": [],
+    "lore": [
+      "« Material »",
+      "",
+      " ☀ Enchant: Curse of Butterfingers",
+      "",
+      "Don\u0027t use too much...",
+      "",
+      "Drops on death.",
+      "",
+      "Tier: UNCOMMON"
     ]
   }
 ]

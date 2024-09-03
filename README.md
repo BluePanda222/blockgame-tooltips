@@ -23,3 +23,12 @@ The following are required to run this mod:
 
 In addition, the following mods are recommended:
 - [Mod Menu](https://modrinth.com/mod/modmenu)
+
+## Credits
+
+- BluePanda22 - Creator, Developer
+- PR0FESSIONALnoob - Beta Testing, Stat Values
+- Sky43990 - Beta Testing, Stat Values
+- Neglex - Beta Testing
+- Stardack - Beta Testing
+- Tik_767 - Beta Testing

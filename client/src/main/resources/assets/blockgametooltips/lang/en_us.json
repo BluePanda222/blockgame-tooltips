@@ -10,7 +10,7 @@
 
   "blockgametooltips.category.toggles": "Tooltip Settings",
   "blockgametooltips.key.tooltipType": "Tooltip Type",
-  "blockgametooltips.key.tooltipType.tooltip": "Changes the type of tooltip shown when hovering over an item\n- Inline: Shows the tooltip in the item's tooltip\n- Window: Shows the tooltip in a separate window",
+  "blockgametooltips.key.tooltipType.tooltip": "Changes the type of tooltip shown when hovering over an item\n- Window: Shows the tooltip in a separate window\n- Inline: Shows the tooltip in the item's tooltip",
   "blockgametooltips.tooltipType.inline": "Inline",
   "blockgametooltips.tooltipType.window": "Window"
 }
