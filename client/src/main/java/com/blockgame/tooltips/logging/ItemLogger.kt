@@ -8,6 +8,7 @@ import com.blockgame.tooltips.objects.Gemstone
 import com.blockgame.tooltips.objects.Mod
 import com.blockgame.tooltips.objects.Stat
 import com.blockgame.tooltips.objects.ids.AbilityModifierId
+import com.blockgame.tooltips.objects.ids.StatId
 import com.blockgame.tooltips.objects.item.Ability
 import com.blockgame.tooltips.objects.item.CachedItem
 import com.blockgame.tooltips.objects.item.ItemMod
@@ -296,37 +297,36 @@ object ItemLogger {
 			}
 		}
 
+		if (MMOITEMS_ITEM_ID.startsWith("RUNECARVING_")) {
+			nbt.keys.filter { key: String ->
+				key.uppercase().startsWith("MMOITEMS_")
+			}.forEach { statKey: String -> // HSTRY_BLUNT_POWER
+				if (nbt.getType(statKey) != NbtElement.DOUBLE_TYPE) {
+					return@forEach
+				}
 
-//		nbt.keys.filter { key: String ->
-//			key.uppercase().startsWith("MMOITEMS_")
-//		}.forEach { statKey: String -> // HSTRY_BLUNT_POWER
-//			if (nbt.getType(statKey) != NbtElement.DOUBLE_TYPE) {
-//				return@forEach
-//			}
-//
-//			val oldValue = nbt.getDouble(statKey.uppercase())
-//			val statId = StatId.getById(statKey.replace("MMOITEMS_", "").uppercase())
-//			val value = if (statId == StatId.UNKNOWN) {
-//				oldValue
-//			} else {
-//				statId.convertValue(oldValue)
-//			}
-//
-//			val minMaxValue = if (cachedItem.stats.containsKey(statKey)) {
-//				cachedItem.stats[statKey]!!
-//			} else {
-//				MinMaxValue(value, value)
-//			}
-//
-//			if (value < minMaxValue.min) {
-//				minMaxValue.min = value
-//			}
-//			if (value > minMaxValue.max) {
-//				minMaxValue.max = value
-//			}
-//
-//			cachedItem.stats[statKey] = minMaxValue
-//		}
+				val value = nbt.getDouble(statKey.uppercase())
+				val statId = StatId.getById(statKey.replace("MMOITEMS_", "").uppercase())
+				if (statId == StatId.UNKNOWN) {
+					return@forEach
+				}
+
+				val minMaxValue = if (cachedItem.stats.containsKey(statId)) {
+					cachedItem.stats[statId]!!
+				} else {
+					MinMaxValue(value, value)
+				}
+
+				if (value < minMaxValue.min) {
+					minMaxValue.min = value
+				}
+				if (value > minMaxValue.max) {
+					minMaxValue.max = value
+				}
+
+				cachedItem.stats[statId] = minMaxValue
+			}
+		}
 
 		statsList.forEach { stat: Stat ->
 			val statKey = stat.id

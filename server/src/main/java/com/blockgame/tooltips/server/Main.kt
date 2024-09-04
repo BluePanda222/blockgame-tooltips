@@ -30,7 +30,7 @@ class Main {
 //			return
 
 
-			val players = listOf("BluePanda22", "Neglex")
+			val players = listOf("BluePanda22", "Neglex", "PR0FESSIONALnoob")
 
 			val mergedData = PlayerDataHandler.loadFromFile("merged")
 
