@@ -30,7 +30,7 @@ class Main {
 //			return
 
 
-			val players = listOf("BluePanda22", "Neglex", "PR0FESSIONALnoob")
+			val players = listOf("BluePanda22", "Neglex", "PR0FESSIONALnoob", "Sky43990", "Tik_767")
 
 			val mergedData = PlayerDataHandler.loadFromFile("merged")
 
@@ -40,6 +40,7 @@ class Main {
 				mergedList = DataMerger.mergeCachedItems(mergedList, playerData)
 			}
 			PlayerDataHandler.writeToFile(mergedList, "merged")
+			PlayerDataHandler.writeToFileWithoutLore(mergedList, "merged")
 
 
 			val stringSet = mutableSetOf<String>()

@@ -22,6 +22,23 @@ object PlayerDataHandler {
 		val jsonStr = CachedItem.listToJsonString(list)
 		configFile.writeText(jsonStr)
 	}
+	fun writeToFileWithoutLore(list: List<CachedItem>, username: String) {
+		val playerDataDirectory = File(FileUtil.playerDataDirectoryPath)
+		if (!playerDataDirectory.exists()) {
+			playerDataDirectory.mkdir()
+		}
+		val playerDirectory = File(playerDataDirectory, username)
+		if (!playerDirectory.exists()) {
+			playerDirectory.mkdir()
+		}
+
+		val listWithoutLore = list.toMutableList()
+		listWithoutLore.forEach { it.lore = mutableListOf() }
+
+		val configFile = File(playerDirectory, "${BlockgameTooltipsServer.MOD_ID}.item.json")
+		val jsonStr = CachedItem.listToJsonString(listWithoutLore)
+		configFile.writeText(jsonStr)
+	}
 
 
 	fun loadFromFile(username: String): List<CachedItem> {
