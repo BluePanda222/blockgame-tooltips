@@ -1,5 +1,8 @@
 # Blockgame Tooltips
 
+> [!WARNING]
+> _**Blockgame has announced that they will be moving over to Hytale in the near future, thus making this mod obsolete. This mod is now Archived.**_
+
 A mod for Blockgame that adds advanced client-side Tooltips to help with the visualization of stats and other useful information.
 
 > [!IMPORTANT]
